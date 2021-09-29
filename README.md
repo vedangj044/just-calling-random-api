@@ -19,7 +19,7 @@ This is a react project to help you get started on your open-source journey. All
 
 ## Hacktoberfest
 
-![Hacktoberfest](https://hacktoberfest.digitalocean.com/img/logo-hacktoberfest-full.7d5e2645.svg)
+![Hacktoberfest](https://i.imgur.com/pZaosIp.png)
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a global challenge organized by DigitalOcean. It encourages participation in giving back to the open-source community by completing pull requests and participating in events. You can sign up anytime between 1 and October 31. Pull requests can be submitted to this repo or any opted-in GitHub or GitLab repo. To get a T-shirt :tshirt:, you must make 4 approved pull requests (PRs). :tada:
 
