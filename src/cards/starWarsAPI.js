@@ -6,9 +6,10 @@ export default function StarWarsAPI(props) {
   const [response, setResponse] = useState("");
 
   useEffect(() => {
-    fetch(https://swapi.dev/api/people/{Math.floor(Math.random() * 50)}?format=json´)
+    fetch(`https://swapi.dev/api/people/${Math.floor(Math.random() * 50)}?format=json`)
       .then((resp) => resp.json())
-      .then((data) => setResponse(data.name));
+      .then((data) => setResponse(data.name)
+      );
   }, []);
 
   return (
@@ -18,7 +19,7 @@ export default function StarWarsAPI(props) {
 
       <ContributorInfo
         username="DiFronzo"
-        profilePic="https://avatars.githubusercontent.com/u/47353498?v=4"
+        profilePic="https://storage.ko-fi.com/cdn/useruploads/d3dceedd-102c-4380-80e9-3a748287882c.png"
       />
       <ApiInfo apiUrl="https://swapi.dev/" apiName="SWAPI" />
     </div>
