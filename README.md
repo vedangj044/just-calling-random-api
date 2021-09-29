@@ -7,7 +7,7 @@ This is a react project to help you get started on your open-source journey. All
 
 ## Table of content
 - [Hacktoberfest](#hacktoberfest)
-- [Learning objective](#learning-objective)
+- [What's in it for you?](#whats-in-it-for-you)
 - [Prerequisite](#prerequisite)
     - [Git and Github](#git--github)
     - [What's an API?](#whats-an-api)
@@ -25,7 +25,7 @@ This is a react project to help you get started on your open-source journey. All
 
 [![Learn more](https://img.shields.io/badge/-Learn%20more-orange?style=plastic)](https://hacktoberfest.digitalocean.com/resources/participation)
 
-## Learning Objective
+## What's in it for you?
 After contributing you would find yourself familiar and more confident with 
 
 :heavy_check_mark: Basics of GitHub workflow :metal: 
@@ -136,7 +136,10 @@ function MyComponent() {
     - `git commit -m <your commit message>` - commit changes
     - `git checkout main` - checkout back to the main branch
     - `git push --all` - push all changes to Github.
-- Go to your fork, you would see a pop-up asking you to make a PR. Click on it.
+- Go to your fork, you would see a pop-up asking you to make a PR. Click on "Compare & pull request".
+
+![PR](https://user-images.githubusercontent.com/43697446/134040805-c114ccf9-aa14-427e-b01f-8dcb2f58ef94.png)
+
 - Write a small description and complete the checklist. Click on "Make a PR".
 
 Wait for it to get approved and merged. Awesome, you have made your first contribution. To make a further contribution, you need to create new branches. Your next contributions could be improvements to previous work or a new API call. Certain things may not work as expected, or you may have doubts about some steps mentioned above. Need not worry, just hop on to our [gitter channel](https://gitter.im/JustCallingRandomAPI/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) and ask. 
