@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ContributorInfo from "../components/contributorInfo";
 import ApiInfo from "../components/apiInfo";
 
-export default function RandomAdvice(props) {
+export default function StarWarsAPI(props) {
   const [response, setResponse] = useState("");
 
   useEffect(() => {
