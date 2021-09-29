@@ -51,7 +51,7 @@ Here, we have mentioned the instructions to set up git. If you don't already kno
 ### What's an API?
 API stands for Application Programming Interface. Imagine what happens at a restaurant :fork_and_knife: - You order your favorite food :pizza: ( Request ), the waiter serves your order when it's ready (API Response). You are not aware of how the food is prepared. Similarly, you request data from an API, and the API returns it to you. You need not be aware of what's happening behind the scenes. Now, anybody who knows where the restaurant is, and how to communicate with the waiter can place an order. Similarly, anyone can consume an API even computer programs :robot:. 
 
-Whenever you visit [just-callling-random-api](https://vedangj044.github.io/just-calling-random-api/) you would see a new quote, I could have manually created a list of 1000 quotes and picked up anyone at random but instead, I can just consume [`Quotable`](https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373/5) API offered by FreeCodeCamp which saves me all the trouble of manually creating the list and offers way more quotes that I could have added. 
+Whenever you visit [just-callling-random-api](https://vedangj044.github.io/just-calling-random-api/) you would see a new quote, I could have manually created a list of 1000 quotes and picked up anyone at random but instead, I can just consume [`Quotable`](https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373/5) API offered by FreeCodeCamp which saves me all the trouble of manually creating the list and offers way more quotes than I could have added. 
 
 There are amazing people out there, who have created a large number of awesome APIs - random Cat pictures :cat2: , random dogs pictures :dog:, breaking bad quotes, harry potter quotes, bitcoin prices :moneybag: , NASA space images, etc. You can find all of these and many more at [Public APIs repository](https://github.com/public-apis/public-apis).
 
@@ -145,5 +145,8 @@ function MyComponent() {
 Wait for it to get approved and merged. Awesome, you have made your first contribution. To make a further contribution, you need to create new branches. Your next contributions could be improvements to previous work or a new API call. Certain things may not work as expected, or you may have doubts about some steps mentioned above. Need not worry, just hop on to our [gitter channel](https://gitter.im/JustCallingRandomAPI/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) and ask. 
 
 ### Contributors
+List generated with [contributors-img](https://contrib.rocks).
 
-Waiting for you! 
+<a href="https://github.com/vedangj044/just-calling-random-api/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vedangj044/just-calling-random-api" />
+</a>
