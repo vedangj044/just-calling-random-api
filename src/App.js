@@ -11,9 +11,10 @@ function App() {
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
-      <RandomAnime/>
+    
       <RandomQuotes />
       <RandomAdvice />
+      <RandomAnime/>
     </div>
   );
 }
