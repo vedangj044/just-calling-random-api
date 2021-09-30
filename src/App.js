@@ -4,6 +4,8 @@ import Message from "./components/content";
 
 import RandomQuotes from "./cards/randomQuotes";
 import RandomAdvice from "./cards/randomAdvice";
+import StarWarsAPI from "./cards/starWarsAPI";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
 
       <RandomQuotes />
       <RandomAdvice />
+      <StarWarsAPI />
     </div>
   );
 }
