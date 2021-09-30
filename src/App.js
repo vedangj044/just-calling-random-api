@@ -7,8 +7,7 @@ import RandomAdvice from "./cards/randomAdvice";
 
 import RandomAnime from "./cards/randomAnime";
 import StarWarsAPI from "./cards/starWarsAPI";
-
-
+import RandomDadJoke from "./cards/randomDadJoke";
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
       <RandomAdvice />
       <RandomAnime/>
       <StarWarsAPI />
-
+      <RandomDadJoke />
     </div>
   );
 }
