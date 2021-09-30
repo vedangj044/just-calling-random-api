@@ -8,18 +8,20 @@ import RandomAdvice from "./cards/randomAdvice";
 import RandomAnime from "./cards/randomAnime";
 import StarWarsAPI from "./cards/starWarsAPI";
 import RandomDadJoke from "./cards/randomDadJoke";
+import RandomCatFacts from "./cards/randomCatFacts";
 
 function App() {
   return (
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
-    
+
       <RandomQuotes />
       <RandomAdvice />
-      <RandomAnime/>
+      <RandomAnime />
       <StarWarsAPI />
       <RandomDadJoke />
+      <RandomCatFacts />
     </div>
   );
 }
