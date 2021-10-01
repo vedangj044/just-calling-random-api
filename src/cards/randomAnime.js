@@ -7,7 +7,7 @@ const RandomAnime = () => {
 	const [anime, setAnime] = useState({})
 	useEffect(() => {
          axios.get("https://animechan.vercel.app/api/random/" ).then(res => {
-              console.log(res.data)
+            //   console.log(res.data)
 	      setAnime(res.data)
 	 })
 	},[])
@@ -20,7 +20,7 @@ const RandomAnime = () => {
 	    <p className="text-red-600">in {anime.anime}</p>
 
             <ContributorInfo username="apoorvcodes" profilePic="https://avatars.githubusercontent.com/u/75479355?s=400&u=2b406b118766febb2515a268559e7d3fb9529ace&v=4" />
-             <ApiInfo apiUrl="hhttps://github.com/rocktimsaikia/anime-chan" apiName="Anime-chan"/>
+             <ApiInfo apiUrl="https://github.com/rocktimsaikia/anime-chan" apiName="Anime-chan"/>
         </div>
 		</div>
 	)
