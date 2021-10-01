@@ -14,7 +14,7 @@ import RandomBriyaniPics from "./cards/RandomBriyaniPics";
 import RandomActivity from "./cards/boredAPI";
 import RandomAnimfacts from "./cards/randomDogfacts";
 import BreadPuns from "./cards/breadPuns";
-
+import RandomDogimage from "./cards/RandomDogimage"
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
       <RandomGeekJokes />
       <RandomActivity />
       <BreadPuns />
+      <RandomDogimage />
     </div>
   );
 }
