@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header";
 import Message from "./components/content";
-
+import MusicPlayer from "./cards/MusicPlayer";
 import RandomQuotes from "./cards/randomQuotes";
 import RandomAdvice from "./cards/randomAdvice";
 
@@ -17,7 +17,8 @@ function App() {
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
-
+      
+      <MusicPlayer />
       <RandomQuotes />
       <RandomAdvice />
       <RandomAnime />
