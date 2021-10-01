@@ -15,7 +15,7 @@ import RandomActivity from "./cards/boredAPI";
 import RandomAnimfacts from "./cards/randomDogfacts";
 import BreadPuns from "./cards/breadPuns";
 import PokeApi from "./cards/pokeAPI";
-
+import RandomFoxImage from "./cards/randomFoxImage";
 
 function App() {
   return (
@@ -31,12 +31,13 @@ function App() {
       <RandomDadJoke />
       <RandomCatFacts />
       <ChuckNorrisJoke />
-      <RandomGeekJokes/>
-      <RandomBriyaniPics/>
+      <RandomGeekJokes />
+      <RandomBriyaniPics />
       <RandomGeekJokes />
       <RandomActivity />
       <BreadPuns />
       <PokeApi />
+      <RandomFoxImage />
     </div>
   );
 }
