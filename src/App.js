@@ -12,13 +12,14 @@ import RandomCatFacts from "./cards/randomCatFacts";
 import ChuckNorrisJoke from "./cards/chuckNorrisJoke";
 import RandomGeekJokes from "./cards/randomGeekJokes";
 import RandomActivity from "./cards/boredAPI";
+import RandomAnimfacts from "./cards/randomDogfacts";
 
 function App() {
   return (
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
-
+      <RandomAnimfacts />
       <MusicPlayer />
       <RandomQuotes />
       <RandomAdvice />
@@ -27,7 +28,7 @@ function App() {
       <RandomDadJoke />
       <RandomCatFacts />
       <ChuckNorrisJoke />
-      <RandomGeekJokes/>
+      <RandomGeekJokes />
       <RandomActivity />
     </div>
   );
