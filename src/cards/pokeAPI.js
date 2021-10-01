@@ -94,6 +94,7 @@ export default function RandomAdvice(props) {
             }
             height="120"
             width="120"
+            alt="Pokemon"
           />
           <div>
             <h1 className="text-2xl font-medium pt-3 pb-3">
