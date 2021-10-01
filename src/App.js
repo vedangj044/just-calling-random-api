@@ -11,12 +11,17 @@ import RandomCatFacts from "./cards/randomCatFacts";
 import ChuckNorrisJoke from "./cards/chuckNorrisJoke";
 import RandomGeekJokes from "./cards/randomGeekJokes";
 import RandomBriyaniPics from "./cards/RandomBriyaniPics";
+import RandomActivity from "./cards/boredAPI";
+import RandomAnimfacts from "./cards/randomDogfacts";
+import BreadPuns from "./cards/breadPuns";
+
 
 function App() {
   return (
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
+      <RandomAnimfacts />
       <MusicPlayer />
       <RandomQuotes />
       <RandomAdvice />
@@ -27,6 +32,9 @@ function App() {
       <ChuckNorrisJoke />
       <RandomGeekJokes/>
       <RandomBriyaniPics/>
+      <RandomGeekJokes />
+      <RandomActivity />
+      <BreadPuns />
     </div>
   );
 }
