@@ -16,8 +16,8 @@ import RandomAnimfacts from "./cards/randomDogfacts";
 import BreadPuns from "./cards/breadPuns";
 import PokeApi from "./cards/pokeAPI";
 import RandomCreditCard from "./cards/randomCreditCard";
-import RandomFoximage from "./cards/randomFoxImage";
-
+import RandomFoxImage from "./cards/randomFoxImage";
+import Covidapi from "./cards/covidApi";
 
 function App() {
   return (
@@ -33,14 +33,15 @@ function App() {
       <RandomDadJoke />
       <RandomCatFacts />
       <ChuckNorrisJoke />
-      <RandomGeekJokes/>
-      <RandomBriyaniPics/>
+      <RandomGeekJokes />
+      <RandomBriyaniPics />
       <RandomGeekJokes />
       <RandomActivity />
       <BreadPuns />
       <PokeApi />
-      <RandomCreditCard/>
-      <RandomFoximage/>
+      <RandomCreditCard />
+      <RandomFoxImage />
+      <Covidapi/>
     </div>
   );
 }
