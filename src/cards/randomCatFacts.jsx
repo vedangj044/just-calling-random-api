@@ -7,11 +7,11 @@ const RandomCatFacts = () => {
   const [catFact, setCatFact] = useState("");
   useEffect(() => {
     axios.get("https://meowfacts.herokuapp.com/").then((res) => {
-      console.log(res.data);
+      // console.log(res.data);
       setCatFact(res.data.data[0]);
     });
   }, []);
-  console.log(catFact);
+  // console.log(catFact);
   return (
     <div className="">
       <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">

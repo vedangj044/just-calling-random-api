@@ -7,11 +7,11 @@ const RandomGeekJokes = () => {
   const [geekJoke, setgeekJoke] = useState("");
   useEffect(() => {
     axios.get("https://geek-jokes.sameerkumar.website/api?format=json").then((res) => {
-      console.log(res.data);
+      // console.log(res.data);
       setgeekJoke(res.data.joke);
     });
   }, []);
-  console.log(geekJoke);
+  // console.log(geekJoke);
   return(
     <div className="">
       <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">
@@ -21,7 +21,7 @@ const RandomGeekJokes = () => {
         <h1 className="text-2xl font-medium pb-6">{geekJoke}</h1>
 
         <ContributorInfo
-          username="Samyak Jain"
+          username="SamyakJain2020"
           profilePic="https://avatars.githubusercontent.com/samyakjain2020"
         />
         <ApiInfo
