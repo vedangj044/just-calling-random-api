@@ -145,7 +145,7 @@ function MyComponent() {
 Wait for it to get approved and merged. Awesome, you have made your first contribution. To make a further contribution, you need to create new branches. Your next contributions could be improvements to previous work or a new API call. Certain things may not work as expected, or you may have doubts about some steps mentioned above. Need not worry, just hop on to our [gitter channel](https://gitter.im/JustCallingRandomAPI/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) and ask. 
 
 ### Contributors
-List generated with [contributors-img](https://contrib.rocks).
+List generated with [contributors-img](https://contrib.rocks). [Updates every 24 hrs]
 
 <a href="https://github.com/vedangj044/just-calling-random-api/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=vedangj044/just-calling-random-api" />
