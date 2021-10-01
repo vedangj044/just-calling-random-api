@@ -86,8 +86,8 @@ This would make a copy of this repository in your account. You will see `<your_u
     - Click on the "Code" button and copy the URL.
     - On your local machine, run terminal / cmd and type `git clone <copied_url>`. This creates a new folder named "just-calling-random-api".
     - Go to the folder.
-- Run `npm install` to install all dependencies.
-- Run `npm start` to start the web app.
+- Run `npm install` or `yarn` to install all dependencies.
+- Run `npm start` or `yarn install` to start the web app.
 
 ## How to contribute?
 
