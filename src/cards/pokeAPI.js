@@ -17,14 +17,23 @@ export default function RandomAdvice(props) {
       .then((data) => setSuggestions(data.results));
   }, []);
 
+  const setLocalEntry = (url, payload) =>localStorage.setItem(url, JSON.stringify(payload));
+  const getLocalEntry = (url) => JSON.parse(localStorage.getItem(url));
+
   const onSubmit = async (event) => {
     event.preventDefault();
     try {
       setLoading(true);
-      const response = await fetch(`${pokeApiUrl}/${pokeName.toLowerCase()}`);
+      const url = `${pokeApiUrl}/${pokeName.toLowerCase()}`;
+      const localEntry = getLocalEntry(url);
+      if (localEntry) {
+        return setPokemon(localEntry);
+      }
+      const response = await fetch(url);
       setStatus(response.status);
 
       const data = await response.json();
+      setLocalEntry(url, data);
       setPokemon(data);
     } catch (error) {
       console.error(error);
