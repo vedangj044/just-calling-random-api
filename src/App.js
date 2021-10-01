@@ -13,6 +13,7 @@ import ChuckNorrisJoke from "./cards/chuckNorrisJoke";
 import RandomGeekJokes from "./cards/randomGeekJokes";
 import RandomActivity from "./cards/boredAPI";
 import BreadPuns from "./cards/breadPuns";
+import PokeApi from "./cards/pokeAPI";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <RandomGeekJokes />
       <RandomActivity />
       <BreadPuns />
+      <PokeApi />
     </div>
   );
 }
