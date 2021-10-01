@@ -17,7 +17,7 @@ const RandomBriyaniPics= () => {
         <h1 className="text-xl py-2 text-blue-700 bold">
          Random Briyani Pics
         </h1>
-         <img className="h-1/5 w-1/5 pb-6" src={Pics}/>
+         <img className="h-1/5 w-1/5 pb-6" src={Pics} alt="Biryani" />
         <ContributorInfo
           username="Deepak_070"
           profilePic="https://avatars.githubusercontent.com/u/56753916?s=40&v=4"
