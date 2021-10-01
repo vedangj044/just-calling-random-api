@@ -12,6 +12,7 @@ import RandomCatFacts from "./cards/randomCatFacts";
 import ChuckNorrisJoke from "./cards/chuckNorrisJoke";
 import RandomGeekJokes from "./cards/randomGeekJokes";
 import RandomActivity from "./cards/boredAPI";
+import RandomAnimfacts from "./cards/randomDogfacts";
 import BreadPuns from "./cards/breadPuns";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
-
+      <RandomAnimfacts />
       <MusicPlayer />
       <RandomQuotes />
       <RandomAdvice />
