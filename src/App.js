@@ -13,6 +13,7 @@ import ChuckNorrisJoke from "./cards/chuckNorrisJoke";
 import RandomGeekJokes from "./cards/randomGeekJokes";
 import RandomActivity from "./cards/boredAPI";
 import RandomAnimfacts from "./cards/randomDogfacts";
+import BreadPuns from "./cards/breadPuns";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <ChuckNorrisJoke />
       <RandomGeekJokes />
       <RandomActivity />
+      <BreadPuns />
     </div>
   );
 }
