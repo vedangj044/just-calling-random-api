@@ -9,6 +9,7 @@ import RandomAnime from "./cards/randomAnime";
 import StarWarsAPI from "./cards/starWarsAPI";
 import RandomDadJoke from "./cards/randomDadJoke";
 import RandomCatFacts from "./cards/randomCatFacts";
+import bitcoinRank from "./cards/bitcoinRank";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <StarWarsAPI />
       <RandomDadJoke />
       <RandomCatFacts />
+      <bitcoinRank />
     </div>
   );
 }
