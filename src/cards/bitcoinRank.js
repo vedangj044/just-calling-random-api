@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ContributorInfo from "../components/contributorInfo";
 import ApiInfo from "../components/apiInfo";
 
-export default function bitcoinRank(props) {
+export default function BitcoinRank(props) {
   const [response, setResponse] = useState("");
 
   useEffect(() => {
