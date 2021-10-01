@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header";
 import Message from "./components/content";
-
+import MusicPlayer from "./cards/MusicPlayer";
 import RandomQuotes from "./cards/randomQuotes";
 import RandomAdvice from "./cards/randomAdvice";
 
@@ -19,6 +19,7 @@ function App() {
       <Header />
       <Message />
 
+      <MusicPlayer />
       <RandomQuotes />
       <RandomAdvice />
       <RandomAnime />
