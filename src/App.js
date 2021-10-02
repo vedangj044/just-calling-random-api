@@ -14,6 +14,7 @@ import RandomBriyaniPics from "./cards/RandomBriyaniPics";
 import RandomActivity from "./cards/boredAPI";
 import RandomAnimfacts from "./cards/randomDogfacts";
 import BreadPuns from "./cards/breadPuns";
+import RandomDogimage from "./cards/RandomDogimage"
 import PokeApi from "./cards/pokeAPI";
 import RandomCreditCard from "./cards/randomCreditCard";
 import RandomFoxImage from "./cards/randomFoxImage";
@@ -38,6 +39,7 @@ function App() {
       <RandomGeekJokes />
       <RandomActivity />
       <BreadPuns />
+      <RandomDogimage />
       <PokeApi />
       <RandomCreditCard />
       <RandomFoxImage />
