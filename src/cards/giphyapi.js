@@ -4,6 +4,9 @@ import ApiInfo from "../components/apiInfo";
 import axios from "axios";
 
 const GiphyApi = () => {
+
+    const key = process.env.REACT_APP_GIPHY_API_KEY;
+
     const [searchValue, setSearchValue] = useState(null);
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -14,7 +17,7 @@ const GiphyApi = () => {
         setLoading(true);
         axios
             .get(
-                `http://api.giphy.com/v1/gifs/search?q=${search}&api_key=${process.env.REACT_APP_GIPHY_API_KEY}`
+                `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${key}`
             )
             .then((res) => {
                 const { data } = res;
