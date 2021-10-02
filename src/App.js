@@ -21,6 +21,7 @@ import RandomCreditCard from "./cards/randomCreditCard";
 import RandomFoxImage from "./cards/randomFoxImage";
 import Covidapi from "./cards/covidApi";
 import GitHubUser from "./cards/githubUser";
+import RandomCatimages from "./cards/RandomCatimages";
 
 function App() {
 	return (
@@ -47,6 +48,7 @@ function App() {
 			<RandomFoxImage />
 			<Covidapi />
 			<GitHubUser />
+			<RandomCatimages/>
 		</div>
 	);
 }
