@@ -22,6 +22,7 @@ import RandomFoxImage from "./cards/randomFoxImage";
 import Covidapi from "./cards/covidApi";
 import GitHubUser from "./cards/githubUser";
 import RandomCatimages from "./cards/RandomCatimages";
+import ZipCodeDetailsAPI from './cards/ZipCodeDetailsAPI'
 import ImageCompression from './cards/imageCompressionAPI';
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
 			<Covidapi />
 			<GitHubUser />
 			<RandomCatimages/>
+			<ZipCodeDetailsAPI/>
 		</div>
 	);
 }
