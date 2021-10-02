@@ -29,6 +29,8 @@ jobs:
 
     - name: Build
       run: npm run build
+      env:
+        REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
 
     - name: Deploy
       run: |
