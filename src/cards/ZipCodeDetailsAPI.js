@@ -20,7 +20,14 @@ const ZipCodeAPI = (props) => {
             <h1 className="text-2xl font-medium pb-6">Total Deaths : {zipCodeData.country}</h1>
             <h1 className="text-2xl font-medium pb-6">New Deaths : {zipCodeData["country abbreviation"]}</h1>
 
-            
+            <ContributorInfo
+                username="mdkacer"
+                profilePic="https://avatars.githubusercontent.com/u/56209657?s=40&v=4"
+            />
+            <ApiInfo
+                apiUrl="https://documenter.getpostman.com/view/10808728/SzS8rjbc"
+                apiName="Zip Code API"
+            />
         </div>
     )
 }
