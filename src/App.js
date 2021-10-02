@@ -35,7 +35,6 @@ function App() {
       <RandomDadJoke />
       <RandomCatFacts />
       <ChuckNorrisJoke />
-      <RandomGeekJokes />
       <RandomBriyaniPics />
       <RandomGeekJokes />
       <RandomActivity />
