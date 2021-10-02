@@ -23,12 +23,14 @@ import Covidapi from "./cards/covidApi";
 import GitHubUser from "./cards/githubUser";
 import RandomCatimages from "./cards/RandomCatimages";
 import ZipCodeDetailsAPI from './cards/ZipCodeDetailsAPI'
+import ImageCompression from './cards/imageCompressionAPI';
 
 function App() {
 	return (
 		<div className="mx-0 xl:mx-40 font-body">
 			<Header />
 			<Message />
+      <ImageCompression />
 			<RandomKanyeQuote />
 			<RandomAnimfacts />
 			<MusicPlayer />
