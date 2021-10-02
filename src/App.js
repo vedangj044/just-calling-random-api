@@ -19,6 +19,7 @@ import PokeApi from "./cards/pokeAPI";
 import RandomCreditCard from "./cards/randomCreditCard";
 import RandomFoxImage from "./cards/randomFoxImage";
 import Covidapi from "./cards/covidApi";
+import GitHubUser from "./cards/githubUser";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <RandomCreditCard />
       <RandomFoxImage />
       <Covidapi/>
+      <GitHubUser />
     </div>
   );
 }
