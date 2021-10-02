@@ -43,3 +43,4 @@ jobs:
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.DEPLOYMENT }}
         repository: ${{ github.repository }}
+        REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
