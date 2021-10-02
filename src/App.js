@@ -22,39 +22,41 @@ import RandomFoxImage from "./cards/randomFoxImage";
 import Covidapi from "./cards/covidApi";
 import GitHubUser from "./cards/githubUser";
 import RandomCatimages from "./cards/RandomCatimages";
-import ZipCodeDetailsAPI from './cards/ZipCodeDetailsAPI'
-import ImageCompression from './cards/imageCompressionAPI';
+import ZipCodeDetailsAPI from "./cards/ZipCodeDetailsAPI";
+import ImageCompression from "./cards/imageCompressionAPI";
+import WeatherApi from "./cards/weatherApi"; 
 
 function App() {
-	return (
-		<div className="mx-0 xl:mx-40 font-body">
-			<Header />
-			<Message />
+  return (
+    <div className="mx-0 xl:mx-40 font-body">
+      <Header />
+      <Message />
       <ImageCompression />
-			<RandomKanyeQuote />
-			<RandomAnimfacts />
-			<MusicPlayer />
-			<RandomQuotes />
-			<RandomAdvice />
-			<RandomAnime />
-			<StarWarsAPI />
-			<RandomDadJoke />
-			<RandomCatFacts />
-			<ChuckNorrisJoke />
-			<RandomBriyaniPics />
-			<RandomGeekJokes />
-			<RandomActivity />
-			<BreadPuns />
-			<RandomDogimage />
-			<PokeApi />
-			<RandomCreditCard />
-			<RandomFoxImage />
-			<Covidapi />
-			<GitHubUser />
-			<RandomCatimages/>
-			<ZipCodeDetailsAPI/>
-		</div>
-	);
+      <RandomKanyeQuote />
+      <RandomAnimfacts />
+      <MusicPlayer />
+      <RandomQuotes />
+      <RandomAdvice />
+      <RandomAnime />
+      <StarWarsAPI />
+      <RandomDadJoke />
+      <RandomCatFacts />
+      <ChuckNorrisJoke />
+      <RandomBriyaniPics />
+      <RandomGeekJokes />
+      <RandomActivity />
+      <BreadPuns />
+      <RandomDogimage />
+      <PokeApi />
+      <RandomCreditCard />
+      <RandomFoxImage />
+      <Covidapi />
+      <GitHubUser />
+      <RandomCatimages />
+      <ZipCodeDetailsAPI />
+      <WeatherApi />
+    </div>
+  );
 }
 
 export default App;
