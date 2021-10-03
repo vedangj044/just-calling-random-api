@@ -33,6 +33,7 @@ import RandomJokeApi from "./cards/randomJokeApi";
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
 import RandomDuckAPI from './cards/RandomDuckAPI'
+import PasswordGenerator from "./cards/PasswordGenerator";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <RandomAnimfacts />
       <MusicPlayer />
       <UrlShortener />
+      <PasswordGenerator />
       <RandomDuckAPI />
       <RandomQuotes />
       <RandomAdvice />
