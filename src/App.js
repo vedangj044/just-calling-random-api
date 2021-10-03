@@ -26,6 +26,7 @@ import ZipCodeDetailsAPI from './cards/ZipCodeDetailsAPI'
 import ImageCompression from './cards/imageCompressionAPI'
 import GiphyApi from './cards/giphyapi'
 import Dungeons from './cards/Dungeons'
+import WeatherApi from './cards/weatherApi';
 
 function App() {
   return (
@@ -53,10 +54,11 @@ function App() {
       <PokeApi />
       <RandomCreditCard />
       <RandomFoxImage />
-      <Covidapi />
       <GitHubUser />
       <RandomCatimages />
       <ZipCodeDetailsAPI />
+      <WeatherApi />
+      <Covidapi />
     </div>
   )
 }
