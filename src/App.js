@@ -25,6 +25,7 @@ import RandomCatimages from "./cards/RandomCatimages";
 import ZipCodeDetailsAPI from "./cards/ZipCodeDetailsAPI";
 import ImageCompression from "./cards/imageCompressionAPI";
 import GiphyApi from "./cards/giphyapi";
+import CryptoDetails from "./cards/cryptoDetails";
 
 function App() {
     return (
@@ -55,6 +56,7 @@ function App() {
             <GitHubUser />
             <RandomCatimages />
             <ZipCodeDetailsAPI />
+            <CryptoDetails />
         </div>
     );
 }
