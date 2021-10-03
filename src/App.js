@@ -30,9 +30,11 @@ import WeatherApi from "./cards/weatherApi";
 import UrlShortener from "./cards/url-shortener";
 import CryptoDetails from "./cards/cryptoDetails";
 import RandomJokeApi from "./cards/randomJokeApi";
+import FakeStoreAPI from './cards/fakeStoreAPI'
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
 import RandomDuckAPI from './cards/RandomDuckAPI'
+
 
 function App() {
   return (
@@ -70,6 +72,7 @@ function App() {
       <RicknMorty />
       <CryptoDetails />
       <RandomJokeApi />
+      <FakeStoreAPI/>
       <RandomMoiveQuote />
     </div>
   );

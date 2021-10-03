@@ -5,7 +5,6 @@ import ApiInfo from '../components/apiInfo';
 export default function Covidapi(props) {
 
     const [covidData, setCovidData] = useState({});
-
     useEffect(()=>{
         fetch("https://api.covid19api.com/summary")
         .then((res)=> res.json())
