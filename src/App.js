@@ -30,11 +30,12 @@ import WeatherApi from './cards/weatherApi';
 import UrlShortener from './cards/url-shortener'
 import CryptoDetails from './cards/cryptoDetails'
 import RandomJokeApi from "./cards/randomJokeApi";
+import RicknMorty from "./cards/ricknmortyApi";
 
 
 function App() {
   return (
-    <div className='mx-0 xl:mx-40 font-body'>
+    <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
       <Dungeons />
@@ -64,10 +65,11 @@ function App() {
       <ZipCodeDetailsAPI />
       <WeatherApi />
       <Covidapi />
+      <RicknMorty />
       <CryptoDetails />
       <RandomJokeApi />
     </div>
-  )
+  );
 }
 
 export default App;
