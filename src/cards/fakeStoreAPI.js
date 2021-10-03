@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React,{useEffect} from 'react'
 import ContributorInfo from '../components/contributorInfo'
 import ApiInfo from '../components/apiInfo'
 const FakeStoreAPI = () => {
@@ -19,7 +19,7 @@ const FakeStoreAPI = () => {
                 <li>3.Product details </li>
             </ul>
             <p>This is a small ecommerce site which is done using fakestore api (includes all basic  redux functionalities ) -
-                <a style={{color:"blue"}} href="https://github.com/Rehasree/MINICART" target="_blank">Click here</a>
+                <a style={{color:"blue"}} href="https://github.com/Rehasree/MINICART" target="_blank" rel="noreferrer">Click here</a>
             </p>
             <ContributorInfo
                 username="Rehasree"
