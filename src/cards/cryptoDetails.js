@@ -21,9 +21,11 @@ export default function CryptoDetails(props) {
       res.filter(id => id.id === cryptoName).map(final => {
         checked = 1;
         setFinalData([final]);
+        return 0;
       })
+      return 0;
     });
-    if (checked == 1) {
+    if (checked === 1) {
       setError(0);
 
     } else {
