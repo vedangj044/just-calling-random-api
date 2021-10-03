@@ -31,6 +31,7 @@ import UrlShortener from './cards/url-shortener'
 import CryptoDetails from './cards/cryptoDetails'
 import RandomJokeApi from "./cards/randomJokeApi";
 import RicknMorty from "./cards/ricknmortyApi";
+import RandomDuckAPI from './cards/RandomDuckAPI'
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
       <RandomAnimfacts />
       <MusicPlayer />
       <UrlShortener />
+      <RandomDuckAPI />
       <RandomQuotes />
       <RandomAdvice />
       <RandomAnime />
