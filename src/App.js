@@ -28,6 +28,9 @@ import GiphyApi from './cards/giphyapi'
 import Dungeons from './cards/Dungeons'
 import WeatherApi from './cards/weatherApi';
 import UrlShortener from './cards/url-shortener'
+import CryptoDetails from './cards/cryptoDetails'
+import RandomJokeApi from "./cards/randomJokeApi";
+
 
 function App() {
   return (
@@ -61,8 +64,10 @@ function App() {
       <ZipCodeDetailsAPI />
       <WeatherApi />
       <Covidapi />
+      <CryptoDetails />
+      <RandomJokeApi />
     </div>
   )
 }
 
-export default App
+export default App;
