@@ -28,6 +28,8 @@ import GiphyApi from './cards/giphyapi'
 import Dungeons from './cards/Dungeons'
 import WeatherApi from './cards/weatherApi';
 import CryptoDetails from './cards/cryptoDetails'
+import RandomJokeApi from "./cards/randomJokeApi";
+
 
 function App() {
   return (
@@ -61,7 +63,7 @@ function App() {
       <WeatherApi />
       <Covidapi />
       <CryptoDetails />
-
+      <RandomJokeApi />
     </div>
   )
 }
