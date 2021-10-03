@@ -32,6 +32,7 @@ import CryptoDetails from "./cards/cryptoDetails";
 import RandomJokeApi from "./cards/randomJokeApi";
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
+import RandomDuckAPI from './cards/RandomDuckAPI'
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <RandomAnimfacts />
       <MusicPlayer />
       <UrlShortener />
+      <RandomDuckAPI />
       <RandomQuotes />
       <RandomAdvice />
       <RandomAnime />
