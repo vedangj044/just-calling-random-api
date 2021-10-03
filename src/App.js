@@ -29,7 +29,7 @@ import Dungeons from './cards/Dungeons'
 import WeatherApi from './cards/weatherApi';
 import CryptoDetails from './cards/cryptoDetails'
 import RandomJokeApi from "./cards/randomJokeApi";
-
+import FakeStoreAPI from './cards/fakeStoreAPI'
 
 function App() {
   return (
@@ -64,6 +64,7 @@ function App() {
       <Covidapi />
       <CryptoDetails />
       <RandomJokeApi />
+      <FakeStoreAPI/>
     </div>
   )
 }

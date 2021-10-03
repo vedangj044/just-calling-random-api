@@ -5,12 +5,12 @@ import ApiInfo from '../components/apiInfo';
 export default function Covidapi(props) {
 
     const [covidData, setCovidData] = useState({});
-
-    useEffect(()=>{
-        fetch("https://api.covid19api.com/summary")
-        .then((res)=> res.json())
-        .then((data)=>setCovidData(data.Global))
-    },[])
+// THIS IS CAUSING ERROR AND STOPPING PAGE FROM RENDERING SO COMMENTING THIS API TO AVOID ERRORS FOR FUTURE CONTRIBUTORS
+    // useEffect(()=>{
+    //     fetch("https://api.covid19api.com/summary")
+    //     .then((res)=> res.json())
+    //     .then((data)=>setCovidData(data.Global))
+    // },[])
     
 
     return (
