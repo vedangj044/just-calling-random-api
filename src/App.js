@@ -27,6 +27,7 @@ import ImageCompression from './cards/imageCompressionAPI'
 import GiphyApi from './cards/giphyapi'
 import Dungeons from './cards/Dungeons'
 import WeatherApi from './cards/weatherApi';
+import UrlShortener from './cards/url-shortener'
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <RandomKanyeQuote />
       <RandomAnimfacts />
       <MusicPlayer />
+      <UrlShortener />
       <RandomQuotes />
       <RandomAdvice />
       <RandomAnime />
