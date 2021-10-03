@@ -14,6 +14,7 @@ import RandomGeekJokes from "./cards/randomGeekJokes";
 import RandomActivity from "./cards/boredAPI";
 import RandomAnimfacts from "./cards/randomDogfacts";
 import BreadPuns from "./cards/breadPuns";
+import RandomJokeApi from "./cards/randomJokeApi";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <RandomGeekJokes />
       <RandomActivity />
       <BreadPuns />
+      <RandomJokeApi/>
     </div>
   );
 }
