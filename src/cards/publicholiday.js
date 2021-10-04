@@ -6,9 +6,10 @@ const Publicholiday = () => {
     const [day,setday]=useState('');
     const [month,setmonth]=useState('');
     const [year,setyear]=useState('');
-    var err=0;
+    
     const getdata=()=>{
-    axios.get(`https://holidays.abstractapi.com/v1/?api_key=023bdf78229f4fcc9b63d8ee6eff33d8&country=in
+       const API_KEY=process.env.REACT_APP_API_KEY;
+        axios.get(`https://holidays.abstractapi.com/v1/?api_key=${API_KEY}&country=in
     &year=${year}&month=${month}&day=${day}`)
         .then(response => {
             console.log(response.data);
