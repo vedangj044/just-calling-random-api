@@ -28,7 +28,7 @@ import GiphyApi from './cards/giphyapi'
 import Dungeons from './cards/Dungeons'
 import WeatherApi from './cards/weatherApi';
 import CryptoDetails from './cards/cryptoDetails'
-
+import Publicholiday from './cards/publicholiday'
 function App() {
   return (
     <div className='mx-0 xl:mx-40 font-body'>
@@ -61,7 +61,7 @@ function App() {
       <WeatherApi />
       <Covidapi />
       <CryptoDetails />
-
+      <Publicholiday/>
     </div>
   )
 }
