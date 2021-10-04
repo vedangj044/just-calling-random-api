@@ -82,7 +82,7 @@ const Dungeons = () => {
         username='AmitrajitDas'
         profilePic='https://amitrajitdas.github.io/Portfolio-V2/assets/img/dp.jpg'
       />
-      <ApiInfo apiUrl='http://www.dnd5eapi.co/' apiName='D&D 5e API' />
+      <ApiInfo apiUrl='https://www.dnd5eapi.co/' apiName='D&D 5e API' />
     </div>
   )
 }
