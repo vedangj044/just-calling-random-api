@@ -7,7 +7,7 @@ const BookDetails = (props) => {
   const [isbn, setIsbn] = useState("");
 
   const loadDataHandler = () => {
-    fetch(`https://openlibrary.org/api/volumes/brief/isbn/${isbn}.json`)
+    fetch(`http://openlibrary.org/api/volumes/brief/isbn/${isbn}.json`)
       .then((response) => response.json())
       .then((data) => {
         if (data !== []) {
@@ -57,7 +57,7 @@ const BookDetails = (props) => {
         username="jmk"
         profilePic="https://avatars.githubusercontent.com/u/56209657?s=40&v=4"
       />
-      <ApiInfo apiUrl="https://openlibrary.org" apiName="Book Details API" />
+      <ApiInfo apiUrl="http://openlibrary.org" apiName="Book Details API" />
     </div>
   );
 };
