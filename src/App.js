@@ -44,6 +44,7 @@ import NasaApi from "./cards/NasaApi";
 import Poemist from "./cards/randomPoemsAPI";
 import BookDetails from "./cards/bookDetails";
 import Publicholiday from './cards/publicholiday'
+import HistoryOfTheDay from './cards/HistoryOfTheDay'
 
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
          <MusicPlayer />
          <UrlShortener />
          <PasswordGenerator />
+         <HistoryOfTheDay />
          <RandomDuckAPI />
          <RandomQuotes />
          <RandomAdvice />
