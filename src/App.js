@@ -35,6 +35,7 @@ import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
 import RandomDuckAPI from './cards/RandomDuckAPI'
 import PasswordGenerator from "./cards/PasswordGenerator";
+import TrendingRepositories from "./cards/TrendingRepositories";
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
       <RandomJokeApi />
       <FakeStoreAPI/>
       <RandomMoiveQuote />
+      <TrendingRepositories />
     </div>
   );
 }
