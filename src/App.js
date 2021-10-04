@@ -36,6 +36,8 @@ import RandomMoiveQuote from "./cards/RandomMovieQuote";
 import RandomDuckAPI from './cards/RandomDuckAPI'
 import PasswordGenerator from "./cards/PasswordGenerator";
 import TrendingRepositories from "./cards/TrendingRepositories";
+import QuoteClearAPI from "./cards/quoteClearAPI";
+
 
 
 function App() {
@@ -65,6 +67,7 @@ function App() {
       <BreadPuns />
       <RandomDogimage />
       <PokeApi />
+      <QuoteClearAPI />
       <RandomCreditCard />
       <RandomFoxImage />
       <GitHubUser />
