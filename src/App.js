@@ -33,11 +33,13 @@ import RandomJokeApi from "./cards/randomJokeApi";
 import FakeStoreAPI from "./cards/fakeStoreAPI";
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
-import RandomDuckAPI from "./cards/RandomDuckAPI";
+import RandomDuckAPI from './cards/RandomDuckAPI'
+import RandomFoodPicApi from "./cards/randomFoodPics";
 import PasswordGenerator from "./cards/PasswordGenerator";
 import TrendingRepositories from "./cards/TrendingRepositories";
 import QuoteClearAPI from "./cards/quoteClearAPI";
 import NasaApi from "./cards/NasaApi";
+
 
 function App() {
    return (
@@ -80,6 +82,7 @@ function App() {
          <RandomJokeApi />
          <FakeStoreAPI />
          <RandomMoiveQuote />
+         <RandomFoodPicApi />
          <TrendingRepositories />
       </div>
    );
