@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/just-calling-random-api/static/css/main.4fcc5ea6.chunk.css",
-    "main.js": "/just-calling-random-api/static/js/main.52a05361.chunk.js",
-    "main.js.map": "/just-calling-random-api/static/js/main.52a05361.chunk.js.map",
+    "main.css": "/just-calling-random-api/static/css/main.d2596a60.chunk.css",
+    "main.js": "/just-calling-random-api/static/js/main.6f382a90.chunk.js",
+    "main.js.map": "/just-calling-random-api/static/js/main.6f382a90.chunk.js.map",
     "runtime-main.js": "/just-calling-random-api/static/js/runtime-main.78ceb760.js",
     "runtime-main.js.map": "/just-calling-random-api/static/js/runtime-main.78ceb760.js.map",
     "static/js/2.91c3b193.chunk.js": "/just-calling-random-api/static/js/2.91c3b193.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.4afac890.chunk.js": "/just-calling-random-api/static/js/3.4afac890.chunk.js",
     "static/js/3.4afac890.chunk.js.map": "/just-calling-random-api/static/js/3.4afac890.chunk.js.map",
     "index.html": "/just-calling-random-api/index.html",
-    "static/css/main.4fcc5ea6.chunk.css.map": "/just-calling-random-api/static/css/main.4fcc5ea6.chunk.css.map",
+    "static/css/main.d2596a60.chunk.css.map": "/just-calling-random-api/static/css/main.d2596a60.chunk.css.map",
     "static/js/2.91c3b193.chunk.js.LICENSE.txt": "/just-calling-random-api/static/js/2.91c3b193.chunk.js.LICENSE.txt",
     "static/media/github.b5d4c591.svg": "/just-calling-random-api/static/media/github.b5d4c591.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.78ceb760.js",
     "static/js/2.91c3b193.chunk.js",
-    "static/css/main.4fcc5ea6.chunk.css",
-    "static/js/main.52a05361.chunk.js"
+    "static/css/main.d2596a60.chunk.css",
+    "static/js/main.6f382a90.chunk.js"
   ]
 }
