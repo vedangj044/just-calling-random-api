@@ -54,7 +54,7 @@ const Publicholiday = () => {
         </div>
         </h1>    
             {   (holiday.length<=0)?
-         (<h1 className="bg-pink-300">No holiday!</h1>):(<h1 className="bg-pink-300">Yup,it's {holiday[0].name}</h1>)       
+         (<h1 className="bg-pink-300">No holiday!😢</h1>):(<h1 className="bg-pink-300">Yup,it's {holiday[0].name}😃</h1>)       
             }       
         </div>
     )
