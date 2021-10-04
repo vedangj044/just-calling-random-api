@@ -37,6 +37,7 @@ import RandomDuckAPI from './cards/RandomDuckAPI'
 import PasswordGenerator from "./cards/PasswordGenerator";
 import TrendingRepositories from "./cards/TrendingRepositories";
 import QuoteClearAPI from "./cards/quoteClearAPI";
+import RandomCarImage from "./cards/randomCarImage";
 
 
 
@@ -78,9 +79,10 @@ function App() {
       <RicknMorty />
       <CryptoDetails />
       <RandomJokeApi />
-      <FakeStoreAPI/>
+      <FakeStoreAPI />
       <RandomMoiveQuote />
       <TrendingRepositories />
+      <RandomCarImage />
     </div>
   );
 }
