@@ -10,8 +10,8 @@ const BookDetails = (props) => {
     fetch(`http://openlibrary.org/api/volumes/brief/isbn/${isbn}.json`)
       .then((response) => response.json())
       .then((data) => {
-        const keys = Object.keys(data.records);
         if (data !== []) {
+          const keys = Object.keys(data.records);
           setBookData(data.records[keys].data);
         }
       })
