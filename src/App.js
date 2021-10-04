@@ -40,6 +40,7 @@ import TrendingRepositories from "./cards/TrendingRepositories";
 import QuoteClearAPI from "./cards/quoteClearAPI";
 import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
+import Poemist from "./cards/randomPoemsAPI";
 
 
 function App() {
@@ -86,6 +87,7 @@ function App() {
          <RandomFoodPicApi />
          <TrendingRepositories />
          <RandomCarImage />
+         <Poemist />
       </div>
    );
 }
