@@ -55,7 +55,10 @@ const Publicholiday = () => {
         </h1>    
             {   (holiday.length<=0)?
          (<h1 className="bg-pink-300">No holiday!😢</h1>):(<h1 className="bg-pink-300">Yup,it's {holiday[0].name}😃</h1>)       
-            }       
+            }
+
+         <ContributorInfo username="MuditWadhwa" profilePic="https://avatars.githubusercontent.com/MuditWadhwa" />
+      <ApiInfo apiUrl="https://www.abstractapi.com/holidays-api" apiName="Abstract Public Holidays" />          
         </div>
     )
 }
