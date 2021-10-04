@@ -41,7 +41,9 @@ import TrendingRepositories from "./cards/TrendingRepositories";
 import QuoteClearAPI from "./cards/quoteClearAPI";
 import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
+import Poemist from "./cards/randomPoemsAPI";
 import BookDetails from "./cards/bookDetails";
+import Publicholiday from './cards/publicholiday'
 
 
 function App() {
@@ -89,7 +91,9 @@ function App() {
          <RandomFoodPicApi />
          <TrendingRepositories />
          <RandomCarImage />
+         <Poemist />
          <BookDetails />
+         <Publicholiday/>
       </div>
    );
 }
