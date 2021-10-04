@@ -38,6 +38,7 @@ import RandomFoodPicApi from "./cards/randomFoodPics";
 import PasswordGenerator from "./cards/PasswordGenerator";
 import TrendingRepositories from "./cards/TrendingRepositories";
 import QuoteClearAPI from "./cards/quoteClearAPI";
+import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
 
 
@@ -84,6 +85,7 @@ function App() {
          <RandomMoiveQuote />
          <RandomFoodPicApi />
          <TrendingRepositories />
+         <RandomCarImage />
       </div>
    );
 }
