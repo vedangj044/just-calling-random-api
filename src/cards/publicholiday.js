@@ -1,6 +1,8 @@
 import React from 'react'
 import {useState}  from 'react';
 import axios from 'axios';
+import ContributorInfo from '../components/contributorInfo';
+import ApiInfo from '../components/apiInfo';
 const Publicholiday = () => {
     const [holiday,setholiday]=useState([]);
     const [day,setday]=useState('');
