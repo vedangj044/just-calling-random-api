@@ -30,10 +30,18 @@ import WeatherApi from "./cards/weatherApi";
 import UrlShortener from "./cards/url-shortener";
 import CryptoDetails from "./cards/cryptoDetails";
 import RandomJokeApi from "./cards/randomJokeApi";
+import FakeStoreAPI from './cards/fakeStoreAPI'
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
 import RandomDuckAPI from './cards/RandomDuckAPI'
 import RandomFoodPicApi from "./cards/randomFoodPics";
+import PasswordGenerator from "./cards/PasswordGenerator";
+import TrendingRepositories from "./cards/TrendingRepositories";
+import QuoteClearAPI from "./cards/quoteClearAPI";
+
+
+
+
 function App() {
   return (
     <div className="mx-0 xl:mx-40 font-body">
@@ -46,6 +54,7 @@ function App() {
       <RandomAnimfacts />
       <MusicPlayer />
       <UrlShortener />
+      <PasswordGenerator />
       <RandomDuckAPI />
       <RandomQuotes />
       <RandomAdvice />
@@ -60,6 +69,7 @@ function App() {
       <BreadPuns />
       <RandomDogimage />
       <PokeApi />
+      <QuoteClearAPI />
       <RandomCreditCard />
       <RandomFoxImage />
       <GitHubUser />
@@ -70,8 +80,10 @@ function App() {
       <RicknMorty />
       <CryptoDetails />
       <RandomJokeApi />
+      <FakeStoreAPI/>
       <RandomMoiveQuote />
       <RandomFoodPicApi/>
+      <TrendingRepositories />
     </div>
   );
 }
