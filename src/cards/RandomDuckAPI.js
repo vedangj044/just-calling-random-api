@@ -5,11 +5,11 @@ import ContributorInfo from '../components/contributorInfo'
 const RandomDuckApi = () => {
     const [img, setImg] = useState("")
     useEffect(()=>{
-        fetch("https://random-d.uk/api/v2/random")
-        .then(res=>res.json())
-        .then((res)=>{
-            setImg(res.url)
-        })
+        // fetch("https://random-d.uk/api/v2/random")
+        // .then(res=>res.json())
+        // .then((res)=>{
+        //     setImg(res.url)
+        // })
     },[])
     return (
         <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">

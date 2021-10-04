@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header";
 import Message from "./components/content";
 import RandomKanyeQuote from "./cards/RandomKanyeQuote";
+import PublicApi from "./cards/PublicApiApi";
 import MemesApi from "./cards/MemesApi";
 import MusicPlayer from "./cards/MusicPlayer";
 import RandomQuotes from "./cards/randomQuotes";
@@ -48,6 +49,7 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <PublicApi />
          <MemesApi />
          <NasaApi />
          <Dungeons />
