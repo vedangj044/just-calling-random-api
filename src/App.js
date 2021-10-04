@@ -43,6 +43,7 @@ import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
 import Poemist from "./cards/randomPoemsAPI";
 import BookDetails from "./cards/bookDetails";
+import RandomProfile from './cards/RandomProfile'
 
 
 function App() {
@@ -92,6 +93,7 @@ function App() {
          <RandomCarImage />
          <Poemist />
          <BookDetails />
+         <RandomProfile />
       </div>
    );
 }
