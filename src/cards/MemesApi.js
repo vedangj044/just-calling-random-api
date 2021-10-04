@@ -11,7 +11,7 @@ export default function MemesApi(props) {
             .then(({data}) => {
                 let random = Math.ceil(Math.random() * 100)
                 setResponse(data.memes[random])
-                console.log(data.memes[random])
+                // console.log(data.memes[random])
             });
     }, []);
 
@@ -24,7 +24,7 @@ export default function MemesApi(props) {
             }
             
             {
-                (response !== null) ? <img width="400px" src={response.url} alt="" />
+                (response !== null) ? <img width="400px" src={response.url} alt="meme" />
                                     : null
             }
 
