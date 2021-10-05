@@ -24,7 +24,11 @@ export default function MemesApi(props) {
             }
             
             {
+<<<<<<< HEAD
                 (response !== null) ? <img width="400px" src={response.url} alt="meme" />
+=======
+                (response !== null) ? <img width="400px" src={response.url} alt="" />
+>>>>>>> upstream/main
                                     : null
             }
 

@@ -32,6 +32,7 @@ jobs:
       env:
         REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
         REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
+        REACT_APP_HOLIDAY_API_KEY: ${{ secrets.REACT_APP_HOLIDAY_API_KEY }}
 
     - name: Deploy
       run: |
@@ -46,3 +47,4 @@ jobs:
         repository: ${{ github.repository }}
         REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
         REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
+        REACT_APP_HOLIDAY_API_KEY: ${{ secrets.REACT_APP_HOLIDAY_API_KEY }}

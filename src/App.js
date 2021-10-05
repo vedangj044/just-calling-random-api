@@ -42,6 +42,11 @@ import TrendingRepositories from "./cards/TrendingRepositories";
 import QuoteClearAPI from "./cards/quoteClearAPI";
 import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
+import Poemist from "./cards/randomPoemsAPI";
+import BookDetails from "./cards/bookDetails";
+import RandomProfile from './cards/RandomProfile'
+import Publicholiday from './cards/publicholiday'
+import TronaldDump from "./cards/tronalddump";
 
 
 function App() {
@@ -49,7 +54,10 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+<<<<<<< HEAD
          <PublicApi />
+=======
+>>>>>>> upstream/main
          <MemesApi />
          <NasaApi />
          <Dungeons />
@@ -90,6 +98,11 @@ function App() {
          <RandomFoodPicApi />
          <TrendingRepositories />
          <RandomCarImage />
+         <Poemist />
+         <BookDetails />
+         <RandomProfile />
+         <Publicholiday/>
+         <TronaldDump />
       </div>
    );
 }
