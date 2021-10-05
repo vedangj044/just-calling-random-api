@@ -54,10 +54,7 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
-<<<<<<< HEAD
          <PublicApi />
-=======
->>>>>>> upstream/main
          <MemesApi />
          <NasaApi />
          <Dungeons />
