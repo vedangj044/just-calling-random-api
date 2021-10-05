@@ -45,6 +45,7 @@ import Poemist from "./cards/randomPoemsAPI";
 import BookDetails from "./cards/bookDetails";
 import RandomProfile from './cards/RandomProfile'
 import Publicholiday from './cards/publicholiday'
+import TronaldDump from "./cards/tronalddump";
 
 
 function App() {
@@ -96,6 +97,7 @@ function App() {
          <BookDetails />
          <RandomProfile />
          <Publicholiday/>
+         <TronaldDump />
       </div>
    );
 }
