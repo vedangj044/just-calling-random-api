@@ -1,4 +1,5 @@
 import "./App.css";
+import RandomAnimeSeries from "./cards/RandomAnimeSeries";
 import Header from "./components/header";
 import Message from "./components/content";
 import RandomKanyeQuote from "./cards/RandomKanyeQuote";
@@ -34,7 +35,7 @@ import RandomJokeApi from "./cards/randomJokeApi";
 import FakeStoreAPI from "./cards/fakeStoreAPI";
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
-import RandomDuckAPI from './cards/RandomDuckAPI'
+import RandomDuckAPI from "./cards/RandomDuckAPI";
 import RandomFoodPicApi from "./cards/randomFoodPics";
 import PasswordGenerator from "./cards/PasswordGenerator";
 import TrendingRepositories from "./cards/TrendingRepositories";
@@ -43,16 +44,16 @@ import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
 import Poemist from "./cards/randomPoemsAPI";
 import BookDetails from "./cards/bookDetails";
-import RandomProfile from './cards/RandomProfile'
-import Publicholiday from './cards/publicholiday'
+import RandomProfile from "./cards/RandomProfile";
+import Publicholiday from "./cards/publicholiday";
 import TronaldDump from "./cards/tronalddump";
-
 
 function App() {
    return (
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <RandomAnimeSeries />
          <MemesApi />
          <NasaApi />
          <Dungeons />
@@ -96,7 +97,7 @@ function App() {
          <Poemist />
          <BookDetails />
          <RandomProfile />
-         <Publicholiday/>
+         <Publicholiday />
          <TronaldDump />
       </div>
    );
