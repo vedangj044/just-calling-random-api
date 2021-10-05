@@ -46,6 +46,7 @@ import BookDetails from "./cards/bookDetails";
 import RandomProfile from './cards/RandomProfile'
 import Publicholiday from './cards/publicholiday'
 import TronaldDump from "./cards/tronalddump";
+import HistoryOfTheDay from "./cards/HistoryOfTheDay";
 
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
          <MusicPlayer />
          <UrlShortener />
          <PasswordGenerator />
+         <HistoryOfTheDay />
          <RandomDuckAPI />
          <RandomQuotes />
          <RandomAdvice />
