@@ -47,6 +47,7 @@ import BookDetails from "./cards/bookDetails";
 import RandomProfile from './cards/RandomProfile'
 import Publicholiday from './cards/publicholiday'
 import TronaldDump from "./cards/tronalddump";
+import BeerAPI from './cards/BeerApi';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <BeerAPI />
          <PublicApi />
          <MemesApi />
          <NasaApi />
