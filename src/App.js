@@ -48,6 +48,7 @@ import RandomProfile from './cards/RandomProfile'
 import Publicholiday from './cards/publicholiday'
 import TronaldDump from "./cards/tronalddump";
 import BeerAPI from './cards/BeerApi';
+import GenderGuess from './cards/GenderGuess';
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <GenderGuess />
          <BeerAPI />
          <PublicApi />
          <MemesApi />
