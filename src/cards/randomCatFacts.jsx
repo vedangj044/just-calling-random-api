@@ -14,7 +14,7 @@ const RandomCatFacts = () => {
   // console.log(catFact);
   return (
     <div className="">
-      <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">
+      <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
         <h1 className="text-xl py-2 text-red-700 font-bold">
           Random Cat Facts
         </h1>

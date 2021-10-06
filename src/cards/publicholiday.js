@@ -25,7 +25,7 @@ const Publicholiday = () => {
     }
     
     return (
-        <div className="mx-1 my-1 rounded-md p-4 border-2 border-grey-300 md:px-4">
+        <div className="mx-1 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
          <h1 className="text-xl font-bold italic py-2">
          Enter the following to know if there is a public holiday or not
          </h1>

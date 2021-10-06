@@ -27,7 +27,7 @@ const PasswordGenerator = () => {
     }
 
     return (
-        <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:pnpm x-4">
+        <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:pnpm x-4">
             <h1 className="text-xl py-2">Password Generator</h1>
             <input className="border px-2 p-1 focus:border-blue-400 outline-none border-blue-100 border-2 rounded" type="text" value={length} onChange={(e)=>setLength(e.target.value)} placeholder="Length of Password" />
             <button className="border p-1 border-blue-600 rounded ml-2 mb-2 w-35 bg-blue-200 hover:bg-blue-400 text-sm" onClick={btnHandler}>Generate</button>

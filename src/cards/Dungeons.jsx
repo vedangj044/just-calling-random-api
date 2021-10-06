@@ -26,7 +26,7 @@ const Dungeons = () => {
   }
 
   return (
-    <div className='mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4'>
+    <div className='mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4'>
       <h1 className='text-xl py-2'>Dungeons and Dragons</h1>
       <input
         className='border px-2 p-1 focus:border-blue-600 outline-none border-blue-500 border-2 rounded'
