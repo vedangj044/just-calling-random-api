@@ -21,7 +21,7 @@ const HistoryOfTheDay = () => {
 
 
     return (
-        <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:pnpm x-4">
+        <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:pnpm x-4">
             <h1 className="text-xl py-2">History of the day !!</h1>
             <h1>{status.message}</h1>
             <button className="border p-1 border-blue-600 rounded mb-2 w-35 bg-blue-200 hover:bg-blue-400 text-sm" onClick={btnHandler}>Get The Fact</button>
