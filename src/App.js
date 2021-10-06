@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header";
 import Message from "./components/content";
 import RandomKanyeQuote from "./cards/RandomKanyeQuote";
+import PublicApi from "./cards/PublicApiApi";
 import MemesApi from "./cards/MemesApi";
 import MusicPlayer from "./cards/MusicPlayer";
 import RandomQuotes from "./cards/randomQuotes";
@@ -46,6 +47,8 @@ import BookDetails from "./cards/bookDetails";
 import RandomProfile from './cards/RandomProfile'
 import Publicholiday from './cards/publicholiday'
 import TronaldDump from "./cards/tronalddump";
+import HistoryOfTheDay from "./cards/HistoryOfTheDay";
+import BeerAPI from './cards/BeerApi';
 
 
 function App() {
@@ -53,6 +56,8 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <BeerAPI />
+         <PublicApi />
          <MemesApi />
          <NasaApi />
          <Dungeons />
@@ -63,6 +68,7 @@ function App() {
          <MusicPlayer />
          <UrlShortener />
          <PasswordGenerator />
+         <HistoryOfTheDay />
          <RandomDuckAPI />
          <RandomQuotes />
          <RandomAdvice />
