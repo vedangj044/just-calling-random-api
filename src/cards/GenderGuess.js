@@ -12,7 +12,6 @@ function GenderGuess() {
         fetch(`https://api.genderize.io/?name=${name}`)
             .then((res) => res.json())
             .then((data) => {
-                // console.log(data)
                 setGender(data.gender)
             })
     }
