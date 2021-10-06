@@ -53,6 +53,7 @@ import BeerAPI from './cards/BeerApi';
 import CovidUsaCases from './cards/UsaCovidCases';
 import GenderGuess from './cards/GenderGuess';
 import RandomGotQuotes from "./cards/randomGotQuotes";
+import AgeCalculator from "./cards/ageCalculator";
 
 function App() {
    return (
@@ -111,6 +112,7 @@ function App() {
          <TronaldDump />
          <CovidUsaCases />
          <RandomGotQuotes/>
+         <AgeCalculator/>
       </div>
    );
 }
