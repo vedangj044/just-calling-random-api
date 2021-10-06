@@ -20,7 +20,7 @@ const RandomAnimeSeries = () => {
 
    return (
       <div className="">
-         <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">
+         <div className="mx-4 my-8 rounded-md p-4 border-1 shadow-2xl md:px-4">
             <h1 className="text-2xl font-medium pb-6">Random Anime Series API</h1>
             {setAnime ? (
                <h5 className="text-xl font-medium py-2 text-blue-700 italic">{anime.anime_name}</h5>

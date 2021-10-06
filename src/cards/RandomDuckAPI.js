@@ -10,6 +10,9 @@ const RandomDuckApi = () => {
         .then((res)=>{
             setImg(res.url)
         })
+        .catch(err => {
+            console.log("error:", err)
+        })
     },[])
     return (
         <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">

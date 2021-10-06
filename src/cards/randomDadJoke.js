@@ -12,7 +12,10 @@ export default function RandomDadJoke(props) {
       },
     })
       .then((resp) => resp.json())
-      .then((data) => setResponse(data.joke));
+      .then((data) => setResponse(data.joke))
+      .catch(err => {
+        console.log("error:", err)
+    });
   }, []);
 
   return (

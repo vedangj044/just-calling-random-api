@@ -8,7 +8,10 @@ export default function RandomCatimages(props) {
     useEffect(() => {
       fetch("https://aws.random.cat/meow")
         .then((res) => res.json())
-        .then((data) => setcatImage(data.file));
+        .then((data) => setcatImage(data.file))
+        .catch(err => {
+          console.log("error:", err)
+      });
     }, []);
     return (
       <div>
