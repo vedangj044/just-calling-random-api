@@ -1,4 +1,5 @@
 import "./App.css";
+import CoffeApi from "./cards/coffeApi";
 import Header from "./components/header";
 import Message from "./components/content";
 import RandomKanyeQuote from "./cards/RandomKanyeQuote";
@@ -35,7 +36,7 @@ import RandomJokeApi from "./cards/randomJokeApi";
 import FakeStoreAPI from "./cards/fakeStoreAPI";
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
-import RandomDuckAPI from './cards/RandomDuckAPI'
+import RandomDuckAPI from "./cards/RandomDuckAPI";
 import RandomFoodPicApi from "./cards/randomFoodPics";
 import PasswordGenerator from "./cards/PasswordGenerator";
 import TrendingRepositories from "./cards/TrendingRepositories";
@@ -44,74 +45,74 @@ import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
 import Poemist from "./cards/randomPoemsAPI";
 import BookDetails from "./cards/bookDetails";
-import RandomProfile from './cards/RandomProfile'
-import Publicholiday from './cards/publicholiday'
+import RandomProfile from "./cards/RandomProfile";
+import Publicholiday from "./cards/publicholiday";
 import TronaldDump from "./cards/tronalddump";
 import HistoryOfTheDay from "./cards/HistoryOfTheDay";
-import BeerAPI from './cards/BeerApi';
-import CovidUsaCases from './cards/UsaCovidCases';
-import GenderGuess from './cards/GenderGuess';
+import BeerAPI from "./cards/BeerApi";
+import CovidUsaCases from "./cards/UsaCovidCases";
+import GenderGuess from "./cards/GenderGuess";
 import RandomGotQuotes from "./cards/randomGotQuotes";
 
-
 function App() {
-   return (
-      <div className="mx-0 xl:mx-40 font-body">
-         <Header />
-         <Message />
-         <GenderGuess />
-         <BeerAPI />
-         <PublicApi />
-         <MemesApi />
-         <NasaApi />
-         <Dungeons />
-         <GiphyApi />
-         <ImageCompression />
-         <RandomKanyeQuote />
-         <RandomAnimfacts />
-         <MusicPlayer />
-         <UrlShortener />
-         <PasswordGenerator />
-         <HistoryOfTheDay />
-         <RandomDuckAPI />
-         <RandomQuotes />
-         <RandomAdvice />
-         <RandomAnime />
-         <StarWarsAPI />
-         <RandomDadJoke />
-         <RandomCatFacts />
-         <ChuckNorrisJoke />
-         <RandomBriyaniPics />
-         <RandomGeekJokes />
-         <RandomActivity />
-         <BreadPuns />
-         <RandomDogimage />
-         <PokeApi />
-         <QuoteClearAPI />
-         <RandomCreditCard />
-         <RandomFoxImage />
-         <GitHubUser />
-         <RandomCatimages />
-         <ZipCodeDetailsAPI />
-         <WeatherApi />
-         <Covidapi />
-         <RicknMorty />
-         <CryptoDetails />
-         <RandomJokeApi />
-         <FakeStoreAPI />
-         <RandomMoiveQuote />
-         <RandomFoodPicApi />
-         <TrendingRepositories />
-         <RandomCarImage />
-         <Poemist />
-         <BookDetails />
-         <RandomProfile />
-         <Publicholiday/>
-         <TronaldDump />
-         <CovidUsaCases />
-         <RandomGotQuotes/>
-      </div>
-   );
+  return (
+    <div className="mx-0 xl:mx-40 font-body">
+      <Header />
+      <Message />
+      <GenderGuess />
+      <CoffeApi />
+      <BeerAPI />
+      <PublicApi />
+      <MemesApi />
+      <NasaApi />
+      <Dungeons />
+      <GiphyApi />
+      <ImageCompression />
+      <RandomKanyeQuote />
+      <RandomAnimfacts />
+      <MusicPlayer />
+      <UrlShortener />
+      <PasswordGenerator />
+      <HistoryOfTheDay />
+      <RandomDuckAPI />
+      <RandomQuotes />
+      <RandomAdvice />
+      <RandomAnime />
+      <StarWarsAPI />
+      <RandomDadJoke />
+      <RandomCatFacts />
+      <ChuckNorrisJoke />
+      <RandomBriyaniPics />
+      <RandomGeekJokes />
+      <RandomActivity />
+      <BreadPuns />
+      <RandomDogimage />
+      <PokeApi />
+      <QuoteClearAPI />
+      <RandomCreditCard />
+      <RandomFoxImage />
+      <GitHubUser />
+      <RandomCatimages />
+      <ZipCodeDetailsAPI />
+      <WeatherApi />
+      <Covidapi />
+      <RicknMorty />
+      <CryptoDetails />
+      <RandomJokeApi />
+      <FakeStoreAPI />
+      <RandomMoiveQuote />
+      <RandomFoodPicApi />
+      <TrendingRepositories />
+      <RandomCarImage />
+      <Poemist />
+      <BookDetails />
+      <RandomProfile />
+      <Publicholiday />
+      <TronaldDump />
+      <CovidUsaCases />
+      <RandomGotQuotes />
+    </div>
+  );
 }
 
 export default App;
