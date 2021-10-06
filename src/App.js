@@ -49,6 +49,7 @@ import Publicholiday from './cards/publicholiday'
 import TronaldDump from "./cards/tronalddump";
 import HistoryOfTheDay from "./cards/HistoryOfTheDay";
 import BeerAPI from './cards/BeerApi';
+import RandomGotQuotes from "./cards/randomGotQuotes";
 
 
 function App() {
@@ -104,6 +105,7 @@ function App() {
          <RandomProfile />
          <Publicholiday/>
          <TronaldDump />
+         <RandomGotQuotes />
       </div>
    );
 }
