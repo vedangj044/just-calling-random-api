@@ -3,6 +3,7 @@ import RandomAnimeSeries from "./cards/RandomAnimeSeries";
 import Header from "./components/header";
 import Message from "./components/content";
 import RandomKanyeQuote from "./cards/RandomKanyeQuote";
+import PublicApi from "./cards/PublicApiApi";
 import MemesApi from "./cards/MemesApi";
 import MusicPlayer from "./cards/MusicPlayer";
 import RandomQuotes from "./cards/randomQuotes";
@@ -47,6 +48,11 @@ import BookDetails from "./cards/bookDetails";
 import RandomProfile from "./cards/RandomProfile";
 import Publicholiday from "./cards/publicholiday";
 import TronaldDump from "./cards/tronalddump";
+import HistoryOfTheDay from "./cards/HistoryOfTheDay";
+import BeerAPI from './cards/BeerApi';
+import CovidUsaCases from './cards/UsaCovidCases';
+import GenderGuess from './cards/GenderGuess';
+import RandomGotQuotes from "./cards/randomGotQuotes";
 
 function App() {
    return (
@@ -54,6 +60,9 @@ function App() {
          <Header />
          <Message />
          <RandomAnimeSeries />
+         <GenderGuess />
+         <BeerAPI />
+         <PublicApi />
          <MemesApi />
          <NasaApi />
          <Dungeons />
@@ -64,6 +73,7 @@ function App() {
          <MusicPlayer />
          <UrlShortener />
          <PasswordGenerator />
+         <HistoryOfTheDay />
          <RandomDuckAPI />
          <RandomQuotes />
          <RandomAdvice />
@@ -99,6 +109,8 @@ function App() {
          <RandomProfile />
          <Publicholiday />
          <TronaldDump />
+         <CovidUsaCases />
+         <RandomGotQuotes/>
       </div>
    );
 }
