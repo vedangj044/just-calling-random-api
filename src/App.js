@@ -47,8 +47,10 @@ import BookDetails from "./cards/bookDetails";
 import RandomProfile from './cards/RandomProfile'
 import Publicholiday from './cards/publicholiday'
 import TronaldDump from "./cards/tronalddump";
+import HistoryOfTheDay from "./cards/HistoryOfTheDay";
 import BeerAPI from './cards/BeerApi';
 import GenderGuess from './cards/GenderGuess';
+import CovidUsaCases from './cards/UsaCovidCases';
 
 
 function App() {
@@ -69,6 +71,7 @@ function App() {
          <MusicPlayer />
          <UrlShortener />
          <PasswordGenerator />
+         <HistoryOfTheDay />
          <RandomDuckAPI />
          <RandomQuotes />
          <RandomAdvice />
@@ -104,6 +107,7 @@ function App() {
          <RandomProfile />
          <Publicholiday/>
          <TronaldDump />
+         <CovidUsaCases />
       </div>
    );
 }
