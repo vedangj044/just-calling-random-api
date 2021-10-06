@@ -51,6 +51,7 @@ import HistoryOfTheDay from "./cards/HistoryOfTheDay";
 import BeerAPI from './cards/BeerApi';
 import CovidUsaCases from './cards/UsaCovidCases';
 import GenderGuess from './cards/GenderGuess';
+import RandomGotQuotes from "./cards/randomGotQuotes";
 
 
 function App() {
@@ -108,6 +109,7 @@ function App() {
          <Publicholiday/>
          <TronaldDump />
          <CovidUsaCases />
+         <RandomGotQuotes/>
       </div>
    );
 }
