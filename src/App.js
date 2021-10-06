@@ -1,5 +1,6 @@
 import "./App.css";
 import RandomAnimeSeries from "./cards/RandomAnimeSeries";
+import CoffeApi from "./cards/coffeApi";
 import Header from "./components/header";
 import Message from "./components/content";
 import RandomKanyeQuote from "./cards/RandomKanyeQuote";
@@ -49,9 +50,9 @@ import RandomProfile from "./cards/RandomProfile";
 import Publicholiday from "./cards/publicholiday";
 import TronaldDump from "./cards/tronalddump";
 import HistoryOfTheDay from "./cards/HistoryOfTheDay";
-import BeerAPI from './cards/BeerApi';
-import CovidUsaCases from './cards/UsaCovidCases';
-import GenderGuess from './cards/GenderGuess';
+import BeerAPI from "./cards/BeerApi";
+import CovidUsaCases from "./cards/UsaCovidCases";
+import GenderGuess from "./cards/GenderGuess";
 import RandomGotQuotes from "./cards/randomGotQuotes";
 import AgeCalculator from "./cards/ageCalculator";
 
@@ -61,6 +62,7 @@ function App() {
          <Header />
          <Message />
          <RandomAnimeSeries />
+         <CoffeApi />
          <GenderGuess />
          <BeerAPI />
          <PublicApi />
