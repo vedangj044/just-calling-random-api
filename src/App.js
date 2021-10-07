@@ -1,4 +1,6 @@
 import "./App.css";
+import RandomAnimeSeries from "./cards/RandomAnimeSeries";
+import CoffeApi from "./cards/coffeApi";
 import Header from "./components/header";
 import Message from "./components/content";
 import RandomKanyeQuote from "./cards/RandomKanyeQuote";
@@ -35,7 +37,7 @@ import RandomJokeApi from "./cards/randomJokeApi";
 import FakeStoreAPI from "./cards/fakeStoreAPI";
 import RicknMorty from "./cards/ricknmortyApi";
 import RandomMoiveQuote from "./cards/RandomMovieQuote";
-import RandomDuckAPI from './cards/RandomDuckAPI'
+import RandomDuckAPI from "./cards/RandomDuckAPI";
 import RandomFoodPicApi from "./cards/randomFoodPics";
 import PasswordGenerator from "./cards/PasswordGenerator";
 import TrendingRepositories from "./cards/TrendingRepositories";
@@ -44,18 +46,24 @@ import RandomCarImage from "./cards/randomCarImage";
 import NasaApi from "./cards/NasaApi";
 import Poemist from "./cards/randomPoemsAPI";
 import BookDetails from "./cards/bookDetails";
-import RandomProfile from './cards/RandomProfile'
-import Publicholiday from './cards/publicholiday'
+import RandomProfile from "./cards/RandomProfile";
+import Publicholiday from "./cards/publicholiday";
 import TronaldDump from "./cards/tronalddump";
 import HistoryOfTheDay from "./cards/HistoryOfTheDay";
-import BeerAPI from './cards/BeerApi';
-
+import BeerAPI from "./cards/BeerApi";
+import CovidUsaCases from "./cards/UsaCovidCases";
+import GenderGuess from "./cards/GenderGuess";
+import RandomGotQuotes from "./cards/randomGotQuotes";
+import AgeCalculator from "./cards/ageCalculator";
 
 function App() {
    return (
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <RandomAnimeSeries />
+         <CoffeApi />
+         <GenderGuess />
          <BeerAPI />
          <PublicApi />
          <MemesApi />
@@ -102,8 +110,11 @@ function App() {
          <Poemist />
          <BookDetails />
          <RandomProfile />
-         <Publicholiday/>
+         <Publicholiday />
          <TronaldDump />
+         <CovidUsaCases />
+         <RandomGotQuotes/>
+         <AgeCalculator/>
       </div>
    );
 }

@@ -3,15 +3,12 @@ import axios from "axios";
 import ContributorInfo from "../components/contributorInfo";
 import ApiInfo from "../components/apiInfo";
 
-const RandomJokeApi = () => {
-  const [joke, setjoke] = useState("");
-  const [delivery, setDelivery] = useState("");
-
+const CovidUsaCases = () => {
+  const [Cases, setCases] = useState("");
   useEffect(() => {
-    axios.get("https://v2.jokeapi.dev/joke/Programming,Miscellaneous").then((res) => {
+    axios.get("https://disease.sh/v3/covid-19/countries/usa").then((res) => {
 
-      setjoke(res.data.setup);
-      setDelivery(res.data.delivery);
+      setCases(res.data.cases);
     });
   }, []);
 
@@ -19,22 +16,22 @@ const RandomJokeApi = () => {
     <div className="">
       <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
         <h1 className="text-xl py-2 text-black Bold">
-         Random Joke API
+         Covid Usa Cases
         </h1>
-        <h1 className="text-2xl font-medium pb-6">{joke}</h1>
-        <h1 className="text-2xl font-medium pb-6">{delivery}</h1>
+        <h1 className="text-2xl font-medium pb-6"> USA Covid Cases: {Cases}</h1>
+        
 
         <ContributorInfo
-          username="yash37158"
+          username="Yash Sharma"
           profilePic="https://user-images.githubusercontent.com/68152307/135753907-27d2c8a9-f02a-4aab-8e3f-439f35c5765e.png"
         />
         <ApiInfo
-          apiUrl="https://sv443.net/jokeapi/v2/"
-          apiName="Random Joke"
+          apiUrl="https://disease.sh/v3/covid-19/countries/usa"
+          apiName="Covid-usa-cases-API"
         />
       </div>
     </div>
   );
 };
 
-export default RandomJokeApi;
+export default CovidUsaCases;

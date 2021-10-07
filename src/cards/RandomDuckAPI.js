@@ -10,9 +10,12 @@ const RandomDuckApi = () => {
         .then((res)=>{
             setImg(res.url)
         })
+        .catch(err => {
+            console.log("error:", err)
+        })
     },[])
     return (
-        <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">
+        <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
             <h1 className="text-xl py-2">Random Duck API</h1>
             <img width="200" height="200" src={img} alt="" />
             <ContributorInfo username="shreyanshmalvya" profilePic="https://avatars.githubusercontent.com/u/80682098?v=4" />

@@ -20,7 +20,7 @@ function WeatherApi() {
   const [place, setPlace] = useState("");
   const [placeData, setPlaceData] = useState({});
   return (
-    <div className='mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4' >
+    <div className='mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4' >
       <div className="App">
         <h1 className="border-2 border-blue-900 m-4 text-3xl">Weather Card </h1>
 

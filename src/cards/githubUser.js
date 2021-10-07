@@ -20,7 +20,7 @@ const GithubUser = () => {
 
     return (
         <>
-            <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">
+            <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
                 <h1 className="text-xl py-2 font-medium">Search Random GitHub User</h1>
                 <input
                     className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-600"

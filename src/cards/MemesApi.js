@@ -16,7 +16,7 @@ export default function MemesApi(props) {
     }, []);
 
     return (
-        <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">
+        <div className="mx-4 my-111 rounded-md p-4 border-1 shadow-2xl md:px-4">
             <h1 className="text-xl py-2">Memes API</h1>
             {
                 (response !== null) ? <h1 className="text-2xl font-medium pb-6">{response.name}</h1>

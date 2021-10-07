@@ -16,7 +16,7 @@ export default function BeerAPI(props) {
     }, []);
 
     return (
-        <div className="mx-4 my-8 rounded-md p-4 border-2 border-grey-300 md:px-4">
+        <div className="mx-4 my-11 rounded-md p-4 border-1 md:px-4 shadow-2xl">
             <h1 className="text-xl py-2">Beer API</h1>
             {
                 (response !== null) ? <h1 className="text-2xl font-medium pb-6">{response.name}</h1>
