@@ -1,4 +1,5 @@
 import "./App.css";
+import GetIcon from "./cards/GetIcon";
 import RandomAnimeSeries from "./cards/RandomAnimeSeries";
 import CoffeApi from "./cards/coffeApi";
 import Header from "./components/header";
@@ -61,6 +62,7 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <GetIcon />
          <RandomAnimeSeries />
          <CoffeApi />
          <GenderGuess />
@@ -113,8 +115,8 @@ function App() {
          <Publicholiday />
          <TronaldDump />
          <CovidUsaCases />
-         <RandomGotQuotes/>
-         <AgeCalculator/>
+         <RandomGotQuotes />
+         <AgeCalculator />
       </div>
    );
 }
