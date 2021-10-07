@@ -58,6 +58,8 @@ import AgeCalculator from "./cards/ageCalculator";
 import HaikuSyllableCounter from "./cards/HaikuSyllableCounter";
 import Robohash from './cards/robohash';
 
+import Foaas from "./cards/foaasapi";
+
 function App() {
    return (
       <div className="mx-0 xl:mx-40 font-body">
@@ -119,6 +121,7 @@ function App() {
          <AgeCalculator/>
 		 <HaikuSyllableCounter/>
          <Robohash />
+         <Foaas/>
       </div>
    );
 }
