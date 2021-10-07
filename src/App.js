@@ -55,6 +55,7 @@ import CovidUsaCases from "./cards/UsaCovidCases";
 import GenderGuess from "./cards/GenderGuess";
 import RandomGotQuotes from "./cards/randomGotQuotes";
 import AgeCalculator from "./cards/ageCalculator";
+import HaikuSyllableCounter from "./cards/HaikuSyllableCounter";
 
 function App() {
    return (
@@ -115,6 +116,7 @@ function App() {
          <CovidUsaCases />
          <RandomGotQuotes/>
          <AgeCalculator/>
+		 <HaikuSyllableCounter/>
       </div>
    );
 }
