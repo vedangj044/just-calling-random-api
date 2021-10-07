@@ -23,6 +23,7 @@ const GetIcon = () => {
    const submitHandler = event => {
       event.preventDefault();
       setWebsiteUrl(website.current.value);
+      website.current.value = "";
    };
 
    return (
