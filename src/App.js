@@ -56,6 +56,7 @@ import GenderGuess from "./cards/GenderGuess";
 import RandomGotQuotes from "./cards/randomGotQuotes";
 import AgeCalculator from "./cards/ageCalculator";
 import HaikuSyllableCounter from "./cards/HaikuSyllableCounter";
+import Robohash from './cards/robohash';
 
 function App() {
    return (
@@ -117,6 +118,7 @@ function App() {
          <RandomGotQuotes/>
          <AgeCalculator/>
 		 <HaikuSyllableCounter/>
+         <Robohash />
       </div>
    );
 }
