@@ -60,6 +60,7 @@ import HaikuSyllableCounter from "./cards/HaikuSyllableCounter";
 import Robohash from './cards/robohash';
 
 import Foaas from "./cards/foaasapi";
+import RandomDadJokes from "./cards/randomDadJokes";
 
 function App() {
    return (
@@ -124,6 +125,7 @@ function App() {
 		 <HaikuSyllableCounter/>
          <Robohash />
          <Foaas/>
+         <RandomDadJokes />
       </div>
    );
 }
