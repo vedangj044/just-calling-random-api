@@ -56,6 +56,10 @@ import CovidUsaCases from "./cards/UsaCovidCases";
 import GenderGuess from "./cards/GenderGuess";
 import RandomGotQuotes from "./cards/randomGotQuotes";
 import AgeCalculator from "./cards/ageCalculator";
+import HaikuSyllableCounter from "./cards/HaikuSyllableCounter";
+import Robohash from './cards/robohash';
+
+import Foaas from "./cards/foaasapi";
 
 function App() {
    return (
@@ -115,8 +119,11 @@ function App() {
          <Publicholiday />
          <TronaldDump />
          <CovidUsaCases />
-         <RandomGotQuotes />
-         <AgeCalculator />
+         <RandomGotQuotes/>
+         <AgeCalculator/>
+		 <HaikuSyllableCounter/>
+         <Robohash />
+         <Foaas/>
       </div>
    );
 }
