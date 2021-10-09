@@ -58,6 +58,7 @@ import RandomGotQuotes from "./cards/randomGotQuotes";
 import AgeCalculator from "./cards/ageCalculator";
 import HaikuSyllableCounter from "./cards/HaikuSyllableCounter";
 import Robohash from './cards/robohash';
+import { DogAnimeQuotes } from "./cards/dogWithAnimeQuotes";
 
 import Foaas from "./cards/foaasapi";
 import RandomDadJokes from "./cards/randomDadJokes";
@@ -126,6 +127,7 @@ function App() {
          <Robohash />
          <Foaas/>
          <RandomDadJokes />
+         <DogAnimeQuotes />
       </div>
    );
 }
