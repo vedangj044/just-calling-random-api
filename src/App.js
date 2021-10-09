@@ -59,6 +59,7 @@ import AgeCalculator from "./cards/ageCalculator";
 import HaikuSyllableCounter from "./cards/HaikuSyllableCounter";
 import Robohash from './cards/robohash';
 import { DogAnimeQuotes } from "./cards/dogWithAnimeQuotes";
+import RandomPlaceholderImage from './cards/randomPlaceholderImage'
 
 import Foaas from "./cards/foaasapi";
 import RandomDadJokes from "./cards/randomDadJokes";
@@ -68,6 +69,7 @@ function App() {
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <RandomPlaceholderImage />
          <GetIcon />
          <RandomAnimeSeries />
          <CoffeApi />
