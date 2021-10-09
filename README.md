@@ -86,8 +86,26 @@ This would make a copy of this repository in your account. You will see `<your_u
     - Click on the "Code" button and copy the URL.
     - On your local machine, run terminal / cmd and type `git clone <copied_url>`. This creates a new folder named "just-calling-random-api".
     - Go to the folder.
-- Run `npm install` or `yarn` to install all dependencies.
+- Run `npm install` or `yarn install` to install all dependencies.
 - Run `npm start` or `yarn start` to start the web app.
+
+### Docker setup
+These instructions will cover usage information and for the docker container.
+#### Prerequisities
+In order to run this container you'll need docker installed.
+- [Windows](https://docs.docker.com/windows/started)
+- [OS X](https://docs.docker.com/mac/started/)
+- [Linux](https://docs.docker.com/linux/started/)
+
+#### Usage
+```
+# build docker image
+$ docker build . -t just-calling-random-api:latest
+
+# Run docker image
+$ docker run -it -p 8080:8080 just-calling-random-api:latest
+```
+You can access the application in http://localhost:8080
 
 ## How to contribute?
 
