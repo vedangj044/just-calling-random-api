@@ -63,12 +63,14 @@ import RandomPlaceholderImage from './cards/randomPlaceholderImage'
 
 import Foaas from "./cards/foaasapi";
 import RandomDadJokes from "./cards/randomDadJokes";
+import PageVisits from "./cards/PageVisits";
 
 function App() {
    return (
       <div className="mx-0 xl:mx-40 font-body">
          <Header />
          <Message />
+         <PageVisits />
          <RandomPlaceholderImage />
          <GetIcon />
          <RandomAnimeSeries />
