@@ -1,9 +1,14 @@
-FROM node:lts-alpine3.14
+FROM node:12-alpine as builder
+
+WORKDIR /app
 
 COPY . .
 
-RUN yarn install
+RUN npm install
 
-ENV PORT=8080
+RUN npm run build
 
-CMD ["yarn", "start"]
+
+FROM nginx:1.17.1-alpine
+
+COPY --from=builder /app/build/ /usr/share/nginx/html

@@ -103,7 +103,7 @@ In order to run this container you'll need docker installed.
 $ docker build . -t just-calling-random-api:latest
 
 # Run docker image
-$ docker run -it -p 8080:8080 just-calling-random-api:latest
+$ docker run -p 8080:80 just-calling-random-api:latest
 ```
 You can access the application in http://localhost:8080
 
