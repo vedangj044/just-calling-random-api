@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+RUN  sed -i "s/https:\/\/vedangj044.github.io\/just-calling-random-api/\./g" package.json
+
 RUN npm install
 
 RUN npm run build

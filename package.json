@@ -2,7 +2,7 @@
   "name": "just-calling-random-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://vedangj044.github.io/just-calling-random-api",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@testing-library/jest-dom": "^5.14.1",
