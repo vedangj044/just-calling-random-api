@@ -23,7 +23,7 @@ export default function Sunshinetime(props) {
       .catch((err) => {
         console.log("SHibe" + err)
       });
-  }, [latlng]);
+  }, [latlng, lat, lng]);
   return (
     <div>
       <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">

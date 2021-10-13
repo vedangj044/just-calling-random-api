@@ -24,7 +24,7 @@ const CoffeApi = () => {
       ) : null}
 
       <ContributorInfo
-        username="Badal Jha"
+        username="Badal-Jha"
         profilePic="https://avatars.githubusercontent.com/u/73827944?v=4"
       />
       <ApiInfo
