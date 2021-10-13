@@ -65,6 +65,7 @@ import Foaas from './cards/foaasapi';
 import RandomDadJokes from './cards/randomDadJokes';
 import PageVisits from './cards/PageVisits';
 import RandomAdage from './cards/RandomAdage';
+import Sunshinetime from './cards/Sunshinetime';
 
 function App() {
   return (
@@ -136,6 +137,8 @@ function App() {
       <DogAnimeQuotes />
       <RandomAdage /> 
       
+      <RandomAdage />
+      <Sunshinetime />
     </div>
   );
 }
