@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import ContributorInfo from '../components/contributorInfo';
-import ApiInfo from '../components/apiInfo';
+import React, { useEffect, useState } from "react";
+import ContributorInfo from "../components/contributorInfo";
+import ApiInfo from "../components/apiInfo";
 
 export default function RandomAdvice(props) {
   const [pokemon, setPokemon] = useState({});
-  const [pokeName, setPokeName] = useState('');
+  const [pokeName, setPokeName] = useState("");
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState(200);
   const [suggestions, setSuggestions] = useState([]);
 
-  const pokeApiUrl = 'https://pokeapi.co/api/v2/pokemon';
+  const pokeApiUrl = "https://pokeapi.co/api/v2/pokemon";
 
   useEffect(() => {
     fetch(`${pokeApiUrl}/?limit=9`)
@@ -17,7 +17,8 @@ export default function RandomAdvice(props) {
       .then((data) => setSuggestions(data.results));
   }, []);
 
-  const setLocalEntry = (url, payload) =>localStorage.setItem(url, JSON.stringify(payload));
+  const setLocalEntry = (url, payload) =>
+    localStorage.setItem(url, JSON.stringify(payload));
   const getLocalEntry = (url) => JSON.parse(localStorage.getItem(url));
 
   const onSubmit = async (event) => {
@@ -49,9 +50,9 @@ export default function RandomAdvice(props) {
         .toUpperCase()
         .concat(
           string
-            .split('')
+            .split("")
             .splice(1, string.length - 1)
-            .join('')
+            .join("")
         );
     }
   };
@@ -90,7 +91,7 @@ export default function RandomAdvice(props) {
             src={
               pokemon.sprites
                 ? pokemon.sprites.front_default
-                : 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Pok%C3%A9ball.png'
+                : "https://upload.wikimedia.org/wikipedia/commons/b/b1/Pok%C3%A9ball.png"
             }
             height="120"
             width="120"
@@ -107,7 +108,7 @@ export default function RandomAdvice(props) {
                       {capitalize(entry.stat.name)}: {entry.base_stat}
                     </li>
                   ))
-                : ''}
+                : ""}
             </ul>
           </div>
         </section>

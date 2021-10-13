@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from "react";
 import ContributorInfo from "../components/contributorInfo";
 import ApiInfo from "../components/apiInfo";
 

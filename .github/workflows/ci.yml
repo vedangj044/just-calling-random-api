@@ -2,13 +2,12 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -16,35 +15,38 @@ jobs:
         node-version: [12.x]
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Check formatting
+        run: npx prettier --check .
 
-    - name: Build
-      run: npm run build
-      env:
-        REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
-        REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
-        REACT_APP_HOLIDAY_API_KEY: ${{ secrets.REACT_APP_HOLIDAY_API_KEY }}
+      - name: Build
+        run: npm run build
+        env:
+          REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
+          REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
+          REACT_APP_HOLIDAY_API_KEY: ${{ secrets.REACT_APP_HOLIDAY_API_KEY }}
 
-    - name: Deploy
-      run: |
-        git config --global user.name $user_name
-        git config --global user.email $user_email
-        git remote set-url origin https://${github_token}@github.com/${repository}
-        npm run deploy
-      env:
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-        github_token: ${{ secrets.DEPLOYMENT }}
-        repository: ${{ github.repository }}
-        REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
-        REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
-        REACT_APP_HOLIDAY_API_KEY: ${{ secrets.REACT_APP_HOLIDAY_API_KEY }}
+      - name: Deploy
+        run: |
+          git config --global user.name $user_name
+          git config --global user.email $user_email
+          git remote set-url origin https://${github_token}@github.com/${repository}
+          npm run deploy
+        env:
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          github_token: ${{ secrets.DEPLOYMENT }}
+          repository: ${{ github.repository }}
+          REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
+          REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
+          REACT_APP_HOLIDAY_API_KEY: ${{ secrets.REACT_APP_HOLIDAY_API_KEY }}

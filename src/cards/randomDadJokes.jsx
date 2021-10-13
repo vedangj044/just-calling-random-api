@@ -7,18 +7,16 @@ const RandomDadJokes = () => {
   const [dadJoke, setdadJoke] = useState("");
   useEffect(() => {
     axios.get("https://dadjokes.io/").then((res) => {
-    // axios.get("https://rapidapi.com/KegenGuyll/api/dad-jokes/details").then((res) => {
+      // axios.get("https://rapidapi.com/KegenGuyll/api/dad-jokes/details").then((res) => {
       // console.log(res.data);
       setdadJoke(res.data.joke);
     });
   }, []);
   // console.log(dadJoke);
-  return(
+  return (
     <div className="">
       <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
-        <h1 className="text-xl py-2 text-green-700 italic">
-         Random Dad Jokes
-        </h1>
+        <h1 className="text-xl py-2 text-green-700 italic">Random Dad Jokes</h1>
         <h1 className="text-2xl font-medium pb-6">{dadJoke}</h1>
 
         <ContributorInfo

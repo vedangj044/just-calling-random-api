@@ -7,34 +7,34 @@ const RandomCreditCard = () => {
   const [creditCard, setCreditCard] = useState("");
   useEffect(() => {
     const formData = new FormData();
-    formData.append("Type", "visa");  
+    formData.append("Type", "visa");
     axios({
-        method: "post",
-        url: "https://randommer.io/Card",
-        data: formData,
-        headers: { "Content-Type": "multipart/form-data" },
+      method: "post",
+      url: "https://randommer.io/Card",
+      data: formData,
+      headers: { "Content-Type": "multipart/form-data" },
+    })
+      .then((response) => {
+        setCreditCard(response.data);
       })
-        .then((response) => {
-          setCreditCard(response.data);
-        })
-        .catch(function (response) {
-          console.error(response);
-    });
+      .catch(function (response) {
+        console.error(response);
+      });
   }, []);
 
-  return(
+  return (
     <div className="">
       <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
-        <h1 className="text-xl py-2">
-         Random Credit Card
-        </h1>
-        {creditCard && <h1 className="text-2xl font-medium pb-6">
+        <h1 className="text-xl py-2">Random Credit Card</h1>
+        {creditCard && (
+          <h1 className="text-2xl font-medium pb-6">
             Card Number : {creditCard.cardNumber} <br />
-            CVV: {creditCard.cvv}  <br />       
+            CVV: {creditCard.cvv} <br />
             Name: {creditCard.fullName} <br />
             pin: {creditCard.pin} <br />
             type: Visa
-        </h1>}
+          </h1>
+        )}
 
         <ContributorInfo
           username="parnus01"

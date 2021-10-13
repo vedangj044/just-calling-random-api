@@ -10,18 +10,20 @@ export default function Sunshinetime(props) {
   const [sunset, setSunset] = useState("");
 
   useEffect(() => {
-    fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today&v=${latlng}`)
+    fetch(
+      `https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today&v=${latlng}`
+    )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
+        console.log(data);
 
-        if ('results' in data) {
-          setSunrise(data.results.sunrise)
-          setSunset(data.results.sunset)
+        if ("results" in data) {
+          setSunrise(data.results.sunrise);
+          setSunset(data.results.sunset);
         }
       })
       .catch((err) => {
-        console.log("SHibe" + err)
+        console.log("SHibe" + err);
       });
   }, [latlng, lat, lng]);
   return (
@@ -31,22 +33,40 @@ export default function Sunshinetime(props) {
 
         <label htmlFor="lat">
           <span className="inline-block w-32">Latitude: </span>
-          <input className="border border-1 rounded bg-gray-100 p-2" id="lat" type="number" value={lat} onChange={(e) => { setLat(e.target.value) }} />
+          <input
+            className="border border-1 rounded bg-gray-100 p-2"
+            id="lat"
+            type="number"
+            value={lat}
+            onChange={(e) => {
+              setLat(e.target.value);
+            }}
+          />
         </label>
         <br />
 
         <label htmlFor="lng">
           <span className="inline-block w-32">Longitude: </span>
-          <input className="border border-1 rounded bg-gray-100 p-2" id="lng" type="number" value={lng} onChange={(e) => { setLng(e.target.value) }} />
+          <input
+            className="border border-1 rounded bg-gray-100 p-2"
+            id="lng"
+            type="number"
+            value={lng}
+            onChange={(e) => {
+              setLng(e.target.value);
+            }}
+          />
         </label>
         <br />
 
         <button
           className="text-white bg-blue-500 rounded-md p-4 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"
           onClick={() => {
-            setLatlng(`${lat}-${lng}`)
+            setLatlng(`${lat}-${lng}`);
           }}
-        >Check now</button>
+        >
+          Check now
+        </button>
 
         <p>The Sun rises at: {sunrise}</p>
         <p>The Sun sets at: {sunset}</p>
@@ -55,7 +75,10 @@ export default function Sunshinetime(props) {
           username="ok524"
           profilePic="https://avatars.githubusercontent.com/ok524"
         />
-        <ApiInfo apiUrl="https://sunrise-sunset.org/api" apiName="Sunset and sunrise times API" />
+        <ApiInfo
+          apiUrl="https://sunrise-sunset.org/api"
+          apiName="Sunset and sunrise times API"
+        />
       </div>
     </div>
   );
