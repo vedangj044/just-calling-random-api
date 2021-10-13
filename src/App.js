@@ -63,7 +63,8 @@ import RandomPlaceholderImage from './cards/randomPlaceholderImage';
 import Foaas from './cards/foaasapi';
 import RandomDadJokes from './cards/randomDadJokes';
 import PageVisits from './cards/PageVisits';
-import RandomAdage from './cards/RandomAdage';
+import RandomAdage from './cards/RandomAdage'
+import SpacexCrew from './cards/SpacexCrew';
 
 function App() {
   return (
@@ -133,6 +134,7 @@ function App() {
       <RandomDadJokes />
       <DogAnimeQuotes />
       <RandomAdage />
+      <SpacexCrew />
     </div>
   );
 }
