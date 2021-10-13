@@ -136,8 +136,6 @@ function App() {
       <RandomDadJokes />
       <DogAnimeQuotes />
       <RandomAdage /> 
-      
-      <RandomAdage />
       <Sunshinetime />
     </div>
   );
