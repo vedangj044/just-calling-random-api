@@ -1,5 +1,6 @@
 import './App.css';
 import GetIcon from './cards/GetIcon';
+import WeatherApi2 from './cards/weatherApi2';
 import RandomAnimeSeries from './cards/RandomAnimeSeries';
 import CoffeApi from './cards/coffeApi';
 import Header from './components/header';
@@ -70,8 +71,9 @@ function App() {
     <div className='mx-0 xl:mx-40 font-body'>
       <Header />
       <Message />
-      <PageVisits />
+      <PageVisits /> 
       <RandomPlaceholderImage />
+      <WeatherApi2 />
       <GetIcon />
       <RandomAnimeSeries />
       <CoffeApi />
@@ -132,7 +134,8 @@ function App() {
       <Foaas />
       <RandomDadJokes />
       <DogAnimeQuotes />
-      <RandomAdage />
+      <RandomAdage /> 
+      
     </div>
   );
 }
