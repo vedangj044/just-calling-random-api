@@ -64,12 +64,20 @@ import Foaas from './cards/foaasapi';
 import RandomDadJokes from './cards/randomDadJokes';
 import PageVisits from './cards/PageVisits';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import RandomAdage from './cards/RandomAdage';
 import Sunshinetime from './cards/Sunshinetime';
 =======
 import RandomAdage from './cards/RandomAdage'
 import SpacexCrew from './cards/SpacexCrew';
 >>>>>>> Adding SpaceX Api
+=======
+import RandomAdage from './cards/RandomAdage'
+import RandomAdage from './cards/RandomAdage';
+import Sunshinetime from './cards/Sunshinetime';
+import SpacexCrew from './cards/SpacexCrew';
+
+>>>>>>> fde6121b143f9cf5fbdd2e3779b90ff7555b1899
 
 function App() {
   return (
@@ -141,9 +149,14 @@ function App() {
       <RandomAdage />
 <<<<<<< HEAD
       <Sunshinetime />
+<<<<<<< HEAD
 =======
       <SpacexCrew />
 >>>>>>> Adding SpaceX Api
+=======
+      <SpacexCrew />
+
+>>>>>>> fde6121b143f9cf5fbdd2e3779b90ff7555b1899
     </div>
   );
 }
