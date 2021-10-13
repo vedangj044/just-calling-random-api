@@ -23,7 +23,8 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -45,8 +46,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
     "postcss": "^7.0.36",
     "prettier": "2.4.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
