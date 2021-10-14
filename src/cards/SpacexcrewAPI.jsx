@@ -15,7 +15,7 @@ const SpacexCrew = () => {
     <div className="">
       <div className="mx-4 my-11 rounded-md p-4 border-1 shadow-2xl md:px-4">
         <h1 className="text-xl py-2 text-black Bold">Spacex Crew Members</h1>
-        <img src={Crew.image} style={{ width: "20%" }} />
+        <img src={Crew.image} style={{ width: "20%" }} alt="Spacex Crew" />
         <h1 className="text-2xl font-medium pb-6">Crew Member : {Crew.name}</h1>
         <h2 className="text-2x; font-medium pb-6">
           Agency name: {Crew.agency}
