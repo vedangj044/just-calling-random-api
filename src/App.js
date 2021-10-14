@@ -1,4 +1,5 @@
 import "./App.css";
+import RandomValorantWeapon from "./cards/RandomValorantWeapon";
 import GetIcon from "./cards/GetIcon";
 import WeatherApi2 from "./cards/weatherApi2";
 import RandomAnimeSeries from "./cards/RandomAnimeSeries";
@@ -72,6 +73,7 @@ function App() {
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
+      <RandomValorantWeapon />
       <PageVisits />
       <RandomPlaceholderImage />
       <WeatherApi2 />
