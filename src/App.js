@@ -67,6 +67,7 @@ import RandomDadJokes from "./cards/randomDadJokes";
 import PageVisits from "./cards/PageVisits";
 import RandomAdage from "./cards/RandomAdage";
 import Sunshinetime from "./cards/Sunshinetime";
+import SpacexCrew from "./cards/SpacexcrewAPI";
 
 function App() {
   return (
@@ -139,6 +140,7 @@ function App() {
       <DogAnimeQuotes />
       <RandomAdage />
       <Sunshinetime />
+      <SpacexCrew />
     </div>
   );
 }
