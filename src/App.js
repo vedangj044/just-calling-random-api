@@ -69,6 +69,7 @@ import RandomAdage from "./cards/RandomAdage";
 import Sunshinetime from "./cards/Sunshinetime";
 import SpacexCrew from "./cards/SpacexcrewAPI";
 import EvaluateMath from "./cards/EvaluateMath";
+import SimpleAdd from "./cards/SimpleAdd";
 
 function App() {
   return (
@@ -143,6 +144,7 @@ function App() {
       <Sunshinetime />
       <SpacexCrew />
       <EvaluateMath />
+      <SimpleAdd />
     </div>
   );
 }
