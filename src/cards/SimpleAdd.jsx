@@ -14,7 +14,7 @@ const SimpleAdd = () => {
   useEffect(() => {
     if (debouncedNum1 === "" || debouncedNum2 === "") return;
     fetch(
-      `https://calculator-api-163raiy6p-hinsxd.vercel.app/api/add?nums=${debouncedNum1},${debouncedNum2}`
+      `https://simple-calculator-api.vercel.app/api/add?nums=${debouncedNum1},${debouncedNum2}`
     )
       .then((r) => r.json())
       .then((d) => {
@@ -27,7 +27,7 @@ const SimpleAdd = () => {
         Adding two numners
       </h1>
       <div>
-        <span>Input 1</span>
+        <span>Number 1</span>
         <input
           type="number"
           className="border border-black border-solid ml-4"
@@ -39,7 +39,7 @@ const SimpleAdd = () => {
         />
       </div>
       <div>
-        <span>Input 2</span>
+        <span>Number 2</span>
         <input
           type="number"
           className="border border-black border-solid ml-4"
