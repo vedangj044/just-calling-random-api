@@ -29,6 +29,7 @@ const SimpleAdd = () => {
       <div>
         <span>Number 1</span>
         <input
+          value={num1}
           type="number"
           className="border border-black border-solid ml-4"
           onChange={(e) => {
@@ -41,6 +42,7 @@ const SimpleAdd = () => {
       <div>
         <span>Number 2</span>
         <input
+          value={num2}
           type="number"
           className="border border-black border-solid ml-4"
           onChange={(e) => {
