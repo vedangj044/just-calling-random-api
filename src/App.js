@@ -68,6 +68,7 @@ import PageVisits from "./cards/PageVisits";
 import RandomAdage from "./cards/RandomAdage";
 import Sunshinetime from "./cards/Sunshinetime";
 import SpacexCrew from "./cards/SpacexcrewAPI";
+import EvaluateMath from "./cards/EvaluateMath";
 
 function App() {
   return (
@@ -141,6 +142,7 @@ function App() {
       <RandomAdage />
       <Sunshinetime />
       <SpacexCrew />
+      <EvaluateMath />
     </div>
   );
 }
