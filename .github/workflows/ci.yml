@@ -50,3 +50,4 @@ jobs:
           REACT_APP_GIPHY_API_KEY: ${{ secrets.REACT_APP_GIPHY_API_KEY }}
           REACT_APP_WEATHER_API_KEY: ${{ secrets.REACT_APP_WEATHER_API_KEY }}
           REACT_APP_HOLIDAY_API_KEY: ${{ secrets.REACT_APP_HOLIDAY_API_KEY }}
+          REACT_APP_MOVIE_API_KEY: ${{ secrets.REACT_APP_MOVIE_API_KEY }}
