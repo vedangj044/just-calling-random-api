@@ -69,12 +69,14 @@ import RandomAdage from "./cards/RandomAdage";
 import Sunshinetime from "./cards/Sunshinetime";
 import SpacexCrew from "./cards/SpacexcrewAPI";
 import SimpleAdd from "./cards/SimpleAdd";
+import Movies from "./cards/Movies";
 
 function App() {
   return (
     <div className="mx-0 xl:mx-40 font-body">
       <Header />
       <Message />
+      <Movies />
       <RandomValorantWeapon />
       <PageVisits />
       <RandomPlaceholderImage />
