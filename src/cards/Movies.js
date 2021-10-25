@@ -69,7 +69,7 @@ const Movies = () => {
   const [isError, setIsError] = useState(false);
 
   const searchMovies = (page = 1) => {
-    const apiKey = "a863e2d9dc344e92991e14e037e55760";
+    const apiKey = process.env.REACT_APP_MOVIE_API_KEY;
     const params = {
       api_key: apiKey,
       query: keyword,
