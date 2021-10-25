@@ -66,7 +66,6 @@ const Movies = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPage, setTotalPage] = useState(0);
-  const [isError, setIsError] = useState(false);
 
   const searchMovies = (page = 1) => {
     const apiKey = process.env.REACT_APP_MOVIE_API_KEY;
@@ -94,8 +93,6 @@ const Movies = () => {
       })
       .catch((error) => {
         console.error(error.message);
-
-        setIsError(true);
       })
       .finally(() => setIsLoading(false));
   };
